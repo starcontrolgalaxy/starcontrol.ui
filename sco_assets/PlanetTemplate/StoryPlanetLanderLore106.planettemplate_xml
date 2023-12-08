@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PlanetTemplate
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../Schemas/PlanetTemplate.xsd"
+  internalID="StoryPlanetLanderLore106"
+  name="StoryPlanetLanderLore106"
+  inheritsFrom="Quasi-Degenerate"
+  >
+  <critterRecord>
+    <critterCounts>
+      <CritterCountRecord critter="Critter1a" existsProbability="1" count="8" />
+    </critterCounts>
+  </critterRecord>
+
+  <stampInstanceRecord>
+    <StampInstances>
+      <PlanetStampInstance stamp="CritterSpawner_Generic" origin="-0.597239,0.800819,0.044649" forwardDir="0.877800,0.479028,-0.000000"/>
+      <PlanetStampInstance stamp="CritterSpawner_Generic" origin="0.369032,-0.823085,0.431678" forwardDir="0.877800,0.479028,-0.000000"/>
+      <PlanetStampInstance stamp="CritterSpawner_Generic" origin="-0.492108,0.857281,0.151321" forwardDir="0.877800,0.479028,-0.000000"/>
+      <PlanetStampInstance stamp="CritterSpawner_Generic" origin="-0.502966,0.559126,-0.659091" forwardDir="0.877800,0.479028,-0.000000"/>
+      <PlanetStampInstance stamp="CritterSpawner_Generic" origin="-0.182161,-0.903564,0.387799" forwardDir="0.877800,0.479028,-0.000000"/>
+      <PlanetStampInstance stamp="CritterSpawner_Generic" origin="0.662266,0.529812,0.529812" forwardDir="0.877800,0.479028,-0.000000"/>
+      <PlanetStampInstance stamp="CritterSpawner_Generic" origin="0.453413,0.604551,0.65493" forwardDir="0.877800,0.479028,-0.000000"/>
+      <PlanetStampInstance stamp="CritterSpawner_Generic" origin="0.080545,0.989354,-0.121202" forwardDir="0.877800,0.479028,-0.000000"/>
+    </StampInstances>
+  </stampInstanceRecord>
+</PlanetTemplate>

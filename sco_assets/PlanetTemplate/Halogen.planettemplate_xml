@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PlanetTemplate
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../Schemas/PlanetTemplate.xsd"
+  internalID="Halogen"
+  name="Halogen"
+  inheritsFrom="default"
+  solarSystemModelName="Mercury"
+  atmosphereHaloSize="0.15"
+  atmosphereHaloDensity="0.100000"
+  atmosphereDensity="1.0"
+  type="UI_PlanetScan_PlanetType_Halogen"
+  billboard="Mercury"
+  cloudSpeed="-0.05,0.005,-0.009,-0.008"
+  
+  gravityFactor="0.58"
+  temperatureFactor="0.8"
+  weatherFactor="0.2"
+  biologyFactor="0.0"
+  toxicityFactor="0.6900000"
+  
+  baseTerrainMaterial="Void"
+  stampList="Alien_Halogen"
+  environment="Crystaline"
+  music="Crystal"
+  
+  atmosphereHaloColor="250,10,155,40"
+  planetScanFogLevel="0.07"
+  atmosphereFogDensityDay="0.1900000"
+  atmosphereFogDensityNight="0.0000000"
+  atmosphereFogColorDay="207,249,255"
+  atmosphereFogColorNight="5,0,0"
+  atmosphereFogColorSunset="255,120,118"
+  atmosphereFogDistance="280.0"
+  atmosphereNoiseTiling="60.000000"
+  atmosphereNoiseShift="0.300000"
+  atmosphereSkyColorDayBottom="117,255,55"
+  atmosphereSkyColorDayTop="11,252,254"
+  atmosphereSkyColorSunsetBottom="250,59,31"
+  atmosphereSkyColorSunsetTop="254,10,91"
+  atmosphereSkyColorNightBottom="3,0,3"
+  atmosphereSkyColorNightTop="0,0,0"
+  atmosphereSkyColorTransitionNight="0.000000"
+  atmosphereSkyColorTransitionSunset="50.000000"
+  atmosphereSkyColorTransitionSunrise="50.000000"
+  atmosphereSkyColorTransitionDay="100.000000"
+  atmosphereSkyTransparencyDayBottom="0.200000"
+  atmosphereSkyTransparencyDayTop="0.300000"
+  atmosphereSkyTransparencyNightBottom="0.800000"
+  atmosphereSkyTransparencyNightTop="0.900000"
+  
+  landerDayParticleFX="GenericLanderEffect_Main"
+  landerNightParticleFX="GenericLanderEffect_Main"
+  landerLandingParticleFX="BlizzardLanderEffect_Main"
+    
+  backLightYaw0="180.000000"
+  backLightYaw1="-90.000000"
+  backLightPitch0="0.000000"
+  backLightPitch1="45.000000"
+  ambientLightTextureIndex="0.000000"
+  keyLightColorNight="255,255,255"
+  backLightColor0="31,38,67"
+  backLightColor1="40,72,80"
+  backLightCount="1"
+  
+  
+
+  >
+  
+  <reentryRecord windCameraShake="0.175000" fallSpeed="1.000000"/>
+  
+  <mineralRecord totalRu="3940">
+    <elementWeights>
+      <MineralElementWeightRecord element="Fluorine" weightModifier="10" />
+      <MineralElementWeightRecord element="Chlorine" weightModifier="10" />
+      <MineralElementWeightRecord element="Bromine" weightModifier="10" />
+      <MineralElementWeightRecord element="Iodine" weightModifier="10" />
+      <MineralElementWeightRecord element="Protactinium" weightModifier="10" />
+      <MineralElementWeightRecord element="Astatine" weightModifier="10" />
+    </elementWeights>
+  </mineralRecord>
+
+  
+  <hazardRecord>
+    <hazardCounts>
+      <HazardCountRecord hazard="BaseLightning" count="4" />
+    </hazardCounts>
+  </hazardRecord>  
+
+</PlanetTemplate>

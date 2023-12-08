@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PlanetTemplate
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../Schemas/PlanetTemplate.xsd"
+  internalID="StartingPlanet1"
+  name="StartingPlanet1"
+  inheritsFrom="Dust"
+  >
+  <mineralRecord totalRu="20">
+    <elementWeights>
+      <MineralElementWeightRecord group="Common Gas" weightModifier="1" />
+      <MineralElementWeightRecord group="Common Element" weightModifier="1" />
+    </elementWeights>
+  </mineralRecord>
+  <critterRecord>
+    <critterCounts>
+    </critterCounts>
+  </critterRecord>
+</PlanetTemplate>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PlanetTemplate
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../Schemas/PlanetTemplate.xsd"
+  internalID="StartingPlanetTitan"
+  name="StartingPlanetTitan"
+  inheritsFrom="Alkali"
+  stampList="Canyon_Sparse"
+  baseTerrainMaterial="Crud"
+  environment="Desert"
+  material="GenericTerrain"
+  solarSystemModelName="Desert02"
+  type="UI_PlanetScan_PlanetType_Alkali"
+  billboard="PlanetoidIcon_Moon"
+  
+  colorHue="0.600000,0.300000,0.300000"
+  colorIntensity="1.000000"
+  
+  gravityFactor="0.400000"
+  temperatureFactor="0.177600"
+  weatherFactor="0.800000"
+  biologyFactor="0.00000"
+  toxicityFactor="0.000000"
+  
+  atmosphereSize="1.000000"
+  atmosphereDensity="0.990000"
+  atmosphereHaloSize="0.500000"
+  atmosphereHaloDensity="0.100000"
+  atmosphereHaloInnerFalloff="0.010000"
+  atmosphereHaloRingThreshold="0.500000"
+  atmosphereHaloRingThicknessExponent="32.000000"
+  atmosphereMinIntensity="0.000000"
+  atmosphereDarknessSaturation="1.000000"
+  atmosphereFogDensityDay="0.800000"
+  atmosphereFogDensityNight="0.800000"
+  atmosphereFogColorDay="120,120,100"
+  atmosphereFogColorNight="120,120,100"
+  atmosphereFogColorSunset="120,120,100"
+  atmosphereFogDistance="220.0"
+  atmosphereNoiseTiling="60.000000"
+  atmosphereNoiseShift="0.100000"
+  atmosphereSkyColorDayBottom="180,120,100"
+  atmosphereSkyColorDayTop="210,120,100"
+  atmosphereSkyColorSunsetBottom="150,120,100"
+  atmosphereSkyColorSunsetTop="170,120,100"
+  atmosphereSkyColorNightBottom="120,120,100"
+  atmosphereSkyColorNightTop="30,10,10"
+  atmosphereSkyColorTransitionNight="0.000000"
+  atmosphereSkyColorTransitionSunset="50.000000"
+  atmosphereSkyColorTransitionSunrise="50.000000"
+  atmosphereSkyColorTransitionDay="100"
+  atmosphereSkyTransparencyDayBottom="0.800000"
+  atmosphereSkyTransparencyDayTop="0.300000"
+  atmosphereSkyTransparencyNightBottom="0.800000"
+  atmosphereSkyTransparencyNightTop="0.300000"
+  
+  backLightYaw0="180.000000"
+  backLightYaw1="-90.000000"
+  backLightPitch0="0.000000"
+  backLightPitch1="45.000000"
+  ambientLightTextureIndex="0.000000"
+  keyLightColorNight="255,255,255"
+  backLightColor0="131,38,67"
+  backLightColor1="140,72,80"
+  backLightCount="1"
+  
+  music="Canyon"
+  canLand="1"
+  canInteract="1"
+  
+  planetScanFogLevel="0.1"
+  atmosphereHaloColor="231,180,110,90"
+  
+  landerDayParticleFX="AlkaliLanderEffect_Main"
+  landerNightParticleFX="AlkaliLanderEffect_Main"
+  landerLandingParticleFX="AlkaliLanderEffect_Main"
+  
+  temperatureKOverride="94"
+  gravityMSSOverride = "1.352"
+  
+  groundLandedParticleFX="LandingOnPlanet_Venus"
+  groundLaunchedParticleFX="LeavingPlanet_Venus"
+  >
+  
+  <reentryRecord windCameraShake="0.375000" fallSpeed="1.000000"/>
+  
+  <mineralRecord totalRu="2420">
+    <elementWeights>
+      <MineralElementWeightRecord element="Barium" group="" weightModifier="5.000000"/>
+      <MineralElementWeightRecord element="Strontium" group="" weightModifier="2.000000"/>
+      <MineralElementWeightRecord element="Calcium Compounds" group="" weightModifier="0.400000"/>
+      <MineralElementWeightRecord element="Metal Oxides" group="" weightModifier="1.300000"/>
+    </elementWeights>
+    
+    <difficultyWeights>
+      <MineralDifficultyWeightRecord difficulty="1" ruWeight="20.000000"/>
+      <MineralDifficultyWeightRecord difficulty="2" ruWeight="210.000000"/>
+    </difficultyWeights>
+  </mineralRecord>
+  
+  <critterRecord>
+    <critterCounts/>
+  </critterRecord>
+  
+  <hazardRecord>
+    <hazardCounts>
+      <HazardCountRecord hazard="Burst_BlackAsh" count="5"/>
+      <HazardCountRecord hazard="BaseLightning" count="50"/>
+    </hazardCounts>
+  </hazardRecord>
+  
+  <destructibleRecord>
+    <destructibleCounts/>
+  </destructibleRecord>
+  
+</PlanetTemplate>
+

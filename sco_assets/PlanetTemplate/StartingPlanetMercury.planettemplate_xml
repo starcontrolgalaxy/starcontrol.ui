@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PlanetTemplate
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../Schemas/PlanetTemplate.xsd"
+  internalID="StartingPlanetMercury"
+  name="StartingPlanetMercury"
+  inheritsFrom="default"
+  type="UI_PlanetScan_PlanetType_Hades"
+  solarSystemModelName="Mercury"
+  atmosphereSize="1.0"
+  atmosphereDensity="0.990000" 
+  atmosphereHaloSize="0.200000" 
+  atmosphereHaloDensity="0.100000"
+  temperatureFactor="1.700700" 
+  temperatureKOverride="540"
+  gravityMSSOverride = "3.7"
+   stampList="StampList_Hell" 
+    material="MoonBaseDust" 
+  
+  
+  colorHue="0.800000,0.200000,0.800000"
+  colorIntensity="1.000000"
+  gravityFactor="0.400000"
+  weatherFactor="0.200000"
+  biologyFactor="0.00000"
+  toxicityFactor="0.8"
+  atmosphereHaloInnerFalloff="0.010000"
+  atmosphereHaloRingThreshold="0.500000"
+  atmosphereHaloRingThicknessExponent="32.000000"
+  atmosphereMinIntensity="0.000000"
+  atmosphereDarknessSaturation="1.000000"
+  atmosphereFogDensityDay="0.950000"
+  atmosphereFogDensityNight="0.500000"
+  atmosphereFogColorDay="227,147,38"
+  atmosphereFogColorNight="128,50,50"
+  atmosphereFogColorSunset="157,97,38"
+  atmosphereFogDistance="230.0"
+  atmosphereNoiseTiling="60.000000"
+  atmosphereNoiseShift="0.100000"
+  atmosphereSkyColorDayBottom="242,120,249"
+  atmosphereSkyColorDayTop="192,89,29"
+  atmosphereSkyColorSunsetBottom="242,120,49"
+  atmosphereSkyColorSunsetTop="192,69,29"
+  atmosphereSkyColorNightBottom="64,15,27"
+  atmosphereSkyColorNightTop="180,100,30"
+  atmosphereSkyColorTransitionNight="0.000000"
+  atmosphereSkyColorTransitionSunset="50.000000"
+  atmosphereSkyColorTransitionSunrise="50.000000"
+  atmosphereSkyColorTransitionDay="100.000000"
+  atmosphereSkyTransparencyDayBottom="0.500000"
+  atmosphereSkyTransparencyDayTop="0.500000"
+  atmosphereSkyTransparencyNightBottom="0.700000"
+  atmosphereSkyTransparencyNightTop="0.500000"
+  backLightYaw0="180.000000"
+  backLightYaw1="-90.000000"
+  backLightPitch0="0.000000"
+  backLightPitch1="45.000000"
+  ambientLightTextureIndex="0.000000"
+  keyLightColorNight="255,255,255"
+  backLightColor0="31,38,67"
+  backLightColor1="40,72,80"
+  backLightCount="1"
+  music="Lava"
+  canLand="1"
+  canInteract="1"
+  landerDayParticleFX="VenusLanderEffect_Main"
+  landerNightParticleFX="VenusLanderEffect_Main"
+  landerLandingParticleFX="GenericLanderEffect_Main"
+  planetScanFogLevel="0.1"
+  atmosphereHaloColor="210,190,255,120"
+
+  
+  
+  >
+  <mineralRecord totalRu="800">
+    <elementWeights>
+      <MineralElementWeightRecord element="Actinium" />
+      <MineralElementWeightRecord element="Uranium" />
+      <MineralElementWeightRecord element="Promethium" weightModifier="5" />
+      </elementWeights>
+  </mineralRecord>
+  
+  <critterRecord>
+    <critterCounts>
+    </critterCounts>
+  </critterRecord>
+
+
+  <hazardRecord>
+    <hazardCounts>
+      <HazardCountRecord hazard="ActiveVolcano" count="10" />
+    </hazardCounts>
+  </hazardRecord>
+
+</PlanetTemplate>

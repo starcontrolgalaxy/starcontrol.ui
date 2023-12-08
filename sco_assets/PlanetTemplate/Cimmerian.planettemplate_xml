@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PlanetTemplate
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../Schemas/PlanetTemplate.xsd"
+  internalID="Cimmerian"
+  name="Cimmerian"
+  inheritsFrom="default"
+  solarSystemModelName="Cimmerian"
+  type="UI_PlanetScan_PlanetType_Cimmerian"
+  gravityFactor="0.2"
+  temperatureFactor="0.285"
+  weatherFactor="0.0"
+  biologyFactor="0.00"
+  baseTerrainMaterial="AlienCanyonFloor"
+  stampList="Volcanic_Cimmerian"
+  environment="Volcanic"  
+  billboard="PlanetoidIcon_Magma"
+  
+  cloudSpeed="-0.015,0.005,-0.009,-0.008"
+  
+  music="Lava"
+  >
+  
+  <mineralRecord totalRu="850">
+    <elementWeights>
+      <MineralElementWeightRecord element="Methanol" weightModifier="1" />
+      <MineralElementWeightRecord element="Methane" weightModifier="1" />
+      <MineralElementWeightRecord element="Lithium" weightModifier="1" />
+      <MineralElementWeightRecord element="Terbium" weightModifier="1" />
+      <MineralElementWeightRecord element="Holmium" weightModifier="1" />
+      <MineralElementWeightRecord element="Ozone" weightModifier="1" />
+    </elementWeights>
+  </mineralRecord>
+  
+  <critterRecord>
+    <critterCounts>
+    </critterCounts>
+  </critterRecord>
+  
+  <hazardRecord>
+    <hazardCounts>
+      <HazardCountRecord hazard="ActiveVolcano" count="10"/>
+      <HazardCountRecord hazard="Earthquake" count="8"/>
+    </hazardCounts>
+  </hazardRecord>
+  
+</PlanetTemplate>

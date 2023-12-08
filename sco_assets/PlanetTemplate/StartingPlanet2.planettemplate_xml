@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PlanetTemplate
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../Schemas/PlanetTemplate.xsd"
+  internalID="StartingPlanet2"
+  name="StartingPlanet2"
+  inheritsFrom="Magma"
+  atmosphereSize="1.0"
+  atmosphereHaloSize="0.5"
+  >
+  <mineralRecord totalRu="150">
+    <elementWeights>
+      <MineralElementWeightRecord element="Nitrous Oxide"/>
+    </elementWeights>
+  </mineralRecord>
+  <critterRecord>
+    <critterCounts>
+    </critterCounts>
+  </critterRecord>
+</PlanetTemplate>

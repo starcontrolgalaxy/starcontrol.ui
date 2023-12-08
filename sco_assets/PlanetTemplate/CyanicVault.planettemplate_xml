@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PlanetTemplate
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../Schemas/PlanetTemplate.xsd"
+  internalID="CyanicVault"
+  name="CyanicVault"
+  inheritsFrom="Cyanic"
+  type="UI_PlanetScan_PlanetType_Cyanic"
+  solarSystemModelName="Cyanic"  
+  >
+  
+  <mineralRecord totalRu="300">
+    <elementWeights>
+      <MineralElementWeightRecord element="Cyano-acetylene" group="" weightModifier="245.000000"/>
+      <MineralElementWeightRecord group="Corrosive" weightModifier=".1" />
+    </elementWeights>
+    <difficultyWeights>
+      <MineralDifficultyWeightRecord difficulty="1" ruWeight="100"/>
+    </difficultyWeights>
+  </mineralRecord>
+
+   <critterRecord>
+    <critterCounts>
+      <CritterCountRecord critter="Vault_Probe" existsProbability="1" count="20" />
+      <CritterCountRecord critter="Vault_Ram" existsProbability="1" count="20" />
+    </critterCounts>
+  </critterRecord>
+
+  <hazardRecord>
+    <hazardCounts>
+      <HazardCountRecord hazard="Earthquake" count="2"/>
+    </hazardCounts>
+  </hazardRecord>
+ 
+</PlanetTemplate>

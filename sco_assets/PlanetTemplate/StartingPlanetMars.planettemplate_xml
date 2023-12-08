@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PlanetTemplate 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../Schemas/PlanetTemplate.xsd"
+  internalID="StartingPlanetMars"
+  name="StartingPlanetMars"
+  inheritsFrom="Dust" 
+  stampList="Desert_Mars" 
+  baseTerrainMaterial="Desert_Mars01" 
+  material="GenericTerrain" 
+  solarSystemModelName="Desert01" 
+  type="UI_PlanetScan_PlanetType_Dust" 
+  
+  colorHue="0.600000,0.300000,0.300000" 
+  colorIntensity="1.000000" 
+  
+  gravityFactor="0.400000" 
+  temperatureFactor="0.379600" 
+  weatherFactor="0.200000" 
+  biologyFactor="0.000000" 
+  toxicityFactor="0.000000" 
+  
+  backLightYaw0="180.000000" 
+  backLightYaw1="-90.000000" 
+  backLightPitch0="0.000000" 
+  backLightPitch1="45.000000" 
+  ambientLightTextureIndex="0.000000" 
+  keyLightColorNight="255,255,255" 
+  backLightColor0="31,38,67" 
+  backLightColor1="40,72,80" 
+  backLightCount="1" 
+  
+  canLand="1" 
+  canInteract="1"
+  billboard="Mars"
+  
+  temperatureKOverride="210"
+  gravityMSSOverride = "3.711"
+  >
+
+	<reentryRecord windCameraShake="0.075000" fallSpeed="1.000000"/>
+  
+	<mineralRecord totalRu="450">
+		<elementWeights>
+			<MineralElementWeightRecord element="Aluminium" group="" weightModifier="4.000000"/>
+			<MineralElementWeightRecord element="Copper" group="" weightModifier="4.000000"/>
+			<MineralElementWeightRecord element="Titanium" group="" weightModifier="4.000000"/>
+			<MineralElementWeightRecord element="Nitrous Oxide" group="" weightModifier="4.500000"/>
+		</elementWeights>
+    
+		<difficultyWeights>
+			<MineralDifficultyWeightRecord difficulty="1" ruWeight="99.000000"/>
+			<MineralDifficultyWeightRecord difficulty="2" ruWeight="1.000000"/>
+		</difficultyWeights>
+	</mineralRecord>
+  
+	<critterRecord>
+    <critterCounts>
+      <CritterCountRecord critter="LexiteDroneA" existsProbability="1" count="8" />
+    </critterCounts>
+  </critterRecord>
+  
+	<hazardRecord>
+		<hazardCounts/>
+	</hazardRecord>
+  
+	<destructibleRecord>
+		<destructibleCounts/>
+	</destructibleRecord>
+  
+	<stampInstanceRecord>
+		<StampInstances>
+			<PlanetStampInstance stamp="CharacterSpawner_TywomScatteredPod1" origin="-0.888976,-0.420974,0.180286" forwardDir="-0.427987,0.903785,0.000000"/>
+			<PlanetStampInstance stamp="CharacterSpawner_TywomScatteredPod2" origin="0.988293,0.001586,-0.152556" forwardDir="0.001605,-0.999999,0.000000"/>
+		</StampInstances>
+	</stampInstanceRecord>
+  
+</PlanetTemplate>
+

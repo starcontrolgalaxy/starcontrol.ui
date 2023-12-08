@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PlanetTemplate
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../Schemas/PlanetTemplate.xsd"
+  internalID="StartingPlanetNeptune"
+  name="StartingPlanetNeptune"
+  inheritsFrom="GasGiant"
+  solarSystemModelName="Neptune"
+  atmosphereDensity="0.990000" 
+  atmosphereHaloSize="0.750000" 
+  atmosphereHaloDensity="0.100000"
+  colorHue="0.2,0.42,0.95"
+  billboard="Neptune"
+  temperatureKOverride="72"
+  gravityMSSOverride = "11.15"
+  toxicityFactor="0.200000"
+  >
+  
+</PlanetTemplate>

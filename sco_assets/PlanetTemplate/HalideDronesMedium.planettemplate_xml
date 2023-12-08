@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PlanetTemplate
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../Schemas/PlanetTemplate.xsd"
+  internalID="HalideDronesMedium"
+  name="HalideDronesMedium"
+  inheritsFrom="default"
+  solarSystemModelName="Halide"
+  type="UI_PlanetScan_PlanetType_Halide"
+  
+  gravityFactor="0.4"
+  temperatureFactor="0.1132"
+  weatherFactor="0.3"
+  biologyFactor="0.0"
+  
+  atmosphereHaloColor="105,118,146,80"
+  atmosphereSize="0.200000" 
+  atmosphereDensity="0.990000" 
+  atmosphereHaloSize="0.1000" 
+  atmosphereHaloDensity="0.100000" 
+  atmosphereHaloInnerFalloff="0.010000" 
+  atmosphereHaloRingThreshold="0.2500000" 
+  atmosphereHaloRingThicknessExponent="32.000000" 
+  atmosphereMinIntensity="0.000000" 
+  atmosphereDarknessSaturation="1.000000" 
+  atmosphereFogDensityDay="0.800000" 
+  atmosphereFogDensityNight="0.6000000"
+  atmosphereFogColorDay="145,157,174" 
+  atmosphereFogColorNight="20,36,120"
+  atmosphereFogColorSunset="20,60,120"
+  atmosphereFogDistance="350.0"
+  atmosphereNoiseTiling="60.000000" 
+  atmosphereNoiseShift="0.100000" 
+  atmosphereSkyColorDayBottom="99,107,119"
+  atmosphereSkyColorDayTop="145,157,174"
+  atmosphereSkyColorSunsetBottom="2,7,20"
+  atmosphereSkyColorSunsetTop="12,24,63"
+  atmosphereSkyColorNightBottom="2,7,20"
+  atmosphereSkyColorNightTop="12,24,63"
+  atmosphereSkyColorTransitionNight="0.000000" 
+  atmosphereSkyColorTransitionSunset="50.000000" 
+  atmosphereSkyColorTransitionSunrise="50.000000" 
+  atmosphereSkyColorTransitionDay="100.000000" 
+  atmosphereSkyTransparencyDayBottom="0.30000"
+  atmosphereSkyTransparencyDayTop="0.30000"
+  atmosphereSkyTransparencyNightBottom="0.300000"
+  atmosphereSkyTransparencyNightTop="0.300000"
+  
+  planetScanFogLevel="0.05"
+  baseTerrainMaterial="ChunkySnow"
+  stampList="Frozen_Base"
+  environment="Ice"
+  music="Ice"
+  billboard="PlanetoidIcon_Blue"
+  
+  backLightYaw0="180.000000" 
+  backLightYaw1="-90.000000" 
+  backLightPitch0="0.000000" 
+  backLightPitch1="45.000000"
+  ambientLightTextureIndex="0.000000" 
+  keyLightColorNight="255,255,255" 
+  backLightColor0="31,38,67" 
+  backLightColor1="40,72,80" 
+  backLightCount="1" 
+  
+  landerDayParticleFX="SnowyLanderEffect_Main"
+  landerNightParticleFX="SnowyLanderEffect_Main"
+  landerLandingParticleFX="SnowyLanderEffect_Main"
+  groundLandedParticleFX="LandingOnPlanet_Icey"
+  groundLaunchedParticleFX="LeavingPlanet_Icey"
+  >
+  
+  <mineralRecord totalRu="550">
+    <elementWeights>
+      <MineralElementWeightRecord element="Bromine" weightModifier="2" />
+      <MineralElementWeightRecord element="Flourine" weightModifier="2" />
+      <MineralElementWeightRecord element="Astatine" weightModifier="2" />
+      <MineralElementWeightRecord group="Common Gas" weightModifier="1" />
+      <MineralElementWeightRecord group="Noble Gas" weightModifier="6" />
+    </elementWeights>
+  </mineralRecord>
+
+  <critterRecord>
+    <critterCounts>
+      <CritterCountRecord critter="SecurityDrone2" existsProbability="1" count="8" />
+    </critterCounts>
+  </critterRecord>
+
+  <hazardRecord>
+    <hazardCounts>
+      <HazardCountRecord hazard="BlizzardStorm" count="6"/>
+      <HazardCountRecord hazard="BaseLightning" count="5"/>
+    </hazardCounts>
+  </hazardRecord>
+
+</PlanetTemplate>

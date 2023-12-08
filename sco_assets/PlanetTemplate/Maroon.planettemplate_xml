@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PlanetTemplate
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../Schemas/PlanetTemplate.xsd"
+  internalID="Maroon"
+  name="Maroon"
+  inheritsFrom="default"
+  solarSystemModelName="Crimson"
+  type="UI_PlanetScan_PlanetType_Maroon"
+  
+  gravityFactor="0.4"
+  temperatureFactor="0.8"
+  weatherFactor="0.2"
+  biologyFactor="0.2"
+  
+  baseTerrainMaterial="Desert_Mars01"
+  stampList="Desert_Maroon"
+  environment="Desert"
+  billboard="PlanetoidIcon_Maroon"
+  
+  atmosphereSize="3.600000"
+  atmosphereDensity="0.190000"
+  atmosphereHaloSize="0.5000"
+  atmosphereHaloDensity="0.400000"
+  atmosphereHaloInnerFalloff="0.010000"
+  atmosphereHaloRingThreshold="0.2500000"
+  atmosphereHaloRingThicknessExponent="32.000000"
+  atmosphereMinIntensity="0.000000"
+  atmosphereDarknessSaturation="1.000000"
+  atmosphereFogDensityDay="0.800000"
+  atmosphereFogDensityNight="0.4000000"
+  atmosphereFogColorDay="250,200,170"
+  atmosphereFogColorNight="150,90,80"
+  atmosphereFogColorSunset="150,150,170"
+  atmosphereFogDistance="250.0"
+  atmosphereNoiseTiling="60.000000"
+  atmosphereNoiseShift="0.100000"
+  atmosphereSkyColorDayBottom="210,135,117"
+  atmosphereSkyColorDayTop="263,118,100"
+  atmosphereSkyColorSunsetBottom="190,150,60"
+  atmosphereSkyColorSunsetTop="150,100,60"
+  atmosphereSkyColorNightBottom="29,15,16"
+  atmosphereSkyColorNightTop="10,20,40"
+  atmosphereSkyColorTransitionNight="0.000000"
+  atmosphereSkyColorTransitionSunset="50.000000"
+  atmosphereSkyColorTransitionSunrise="50.000000"
+  atmosphereSkyColorTransitionDay="100.000000"
+  atmosphereSkyTransparencyDayBottom="0.600000"
+  atmosphereSkyTransparencyDayTop="0.500000"
+  atmosphereSkyTransparencyNightBottom="0.800000"
+  atmosphereSkyTransparencyNightTop="0.500000"
+
+  landerDayParticleFX="BlizzardLanderEffect_Main"
+  landerNightParticleFX="BlizzardLanderEffect_Main"
+  landerLandingParticleFX="BlizzardLanderEffect_Main"
+  planetScanFogLevel="0.05"
+  atmosphereHaloColor="200,120,100,100"
+  >
+  
+  <mineralRecord totalRu="200">
+    <elementWeights>
+      <MineralElementWeightRecord group="Common Gas" weightModifier="1" />
+      <MineralElementWeightRecord group="Common Element" weightModifier="1" />
+    </elementWeights>
+  </mineralRecord>
+  
+  <critterRecord>
+    <critterCounts>
+    </critterCounts>
+  </critterRecord>
+  
+</PlanetTemplate>

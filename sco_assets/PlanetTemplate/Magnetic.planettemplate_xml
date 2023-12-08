@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PlanetTemplate
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../Schemas/PlanetTemplate.xsd"
+  internalID="Magnetic"
+  name="Magnetic"
+  inheritsFrom="default"
+  solarSystemModelName="Magnetic"
+  type="UI_PlanetScan_PlanetType_Magnetic"
+  
+  gravityFactor="0.4"
+  temperatureFactor="0.41"
+  weatherFactor="0.1"
+  biologyFactor="0.4"
+  billboard="PlanetoidIcon_Magnetic"
+  
+  baseTerrainMaterial="Void"
+  stampList="Alien_Magnetic" 
+  environment="Barren"
+
+  atmosphereSize="0.400000"
+  atmosphereDensity="0.390000"
+  atmosphereHaloSize="0.1000"
+  atmosphereHaloDensity="0.100000"
+  atmosphereHaloInnerFalloff="0.010000"
+  atmosphereHaloRingThreshold="0.2500000"
+  atmosphereHaloRingThicknessExponent="32.000000"
+  atmosphereMinIntensity="0.000000"
+  atmosphereDarknessSaturation="1.000000"
+  atmosphereFogDensityDay="0.50000"
+  atmosphereFogDensityNight="0.9000000"
+  atmosphereFogColorDay="120,120,120"
+  atmosphereFogColorNight="100,120,120"
+  atmosphereFogColorSunset="100,20,120"
+  atmosphereFogDistance="350.0"
+  atmosphereNoiseTiling="60.000000"
+  atmosphereNoiseShift="0.100000"
+  atmosphereSkyColorDayBottom="20,15,20"
+  atmosphereSkyColorDayTop="40,30,40"
+  atmosphereSkyColorSunsetBottom="20,12,20"
+  atmosphereSkyColorSunsetTop="40,30,40"
+  atmosphereSkyColorNightBottom="20,15,20"
+  atmosphereSkyColorNightTop="40,30,40"
+  atmosphereSkyColorTransitionNight="0.000000"
+  atmosphereSkyColorTransitionSunset="50.000000"
+  atmosphereSkyColorTransitionSunrise="50.000000"
+  atmosphereSkyColorTransitionDay="100.000000"
+  atmosphereSkyTransparencyDayBottom="0.30000"
+  atmosphereSkyTransparencyDayTop="0.30000"
+  atmosphereSkyTransparencyNightBottom="0.300000"
+  atmosphereSkyTransparencyNightTop="0.300000"
+  planetScanFogLevel="0.15"
+  atmosphereHaloColor="150,151,150,10"  
+  
+  music="Crystal"
+  >
+  
+  <mineralRecord totalRu="800">
+    <elementWeights>
+      <MineralElementWeightRecord element="Manganese" weightModifier="564" />
+      <MineralElementWeightRecord element="Hafnium" weightModifier="515" />
+      <MineralElementWeightRecord element="Nickel" weightModifier="564" />
+      <MineralElementWeightRecord element="Niobium" weightModifier="515" />
+      <MineralElementWeightRecord element="Scandium" weightModifier="564" />
+      <MineralElementWeightRecord element="Magnetic Monopoles" weightModifier="515" />
+    </elementWeights>
+    
+    <difficultyWeights>
+      <MineralDifficultyWeightRecord difficulty="1" ruWeight="100"/>
+    </difficultyWeights>
+  </mineralRecord>
+
+  <hazardRecord>
+    <hazardCounts>
+      <HazardCountRecord hazard="ViolentStorm" count="1"/>
+      <HazardCountRecord hazard="BaseLightning" count="1"/>
+      <HazardCountRecord hazard="Earthquake" count="8"/>
+    </hazardCounts>
+  </hazardRecord>
+
+</PlanetTemplate>

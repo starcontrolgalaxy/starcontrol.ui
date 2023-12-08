@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PlanetTemplate
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../Schemas/PlanetTemplate.xsd"
+  internalID="Carbide"
+  name="Carbide"
+  inheritsFrom="default"
+  solarSystemModelName="Carbide"
+  type="UI_PlanetScan_PlanetType_Carbide"
+  gravityFactor="0.5"
+  temperatureFactor="0.5"
+  weatherFactor="0.3"
+  biologyFactor="0.0"
+  baseTerrainMaterial="MudSmoothRed"
+  stampList="Carbide_Surface"
+  environment="Barren"
+  colorHue="0.600000,0.300000,0.300000"
+  colorIntensity="1.000000"
+  toxicityFactor="0.000000"
+  billboard="PlanetoidIcon_Carbide"
+  
+  atmosphereSize="0.2"
+  atmosphereDensity="0.5"
+  atmosphereHaloSize="0.2000"
+  atmosphereHaloDensity="1.000000"
+  atmosphereHaloInnerFalloff="0.010000"
+  atmosphereHaloRingThreshold="0.250000"
+  atmosphereHaloRingThicknessExponent="32.000000"
+  atmosphereHaloColor="155,100,55,70"
+  atmosphereMinIntensity="0.000000"
+  atmosphereDarknessSaturation="1.000000"
+  atmosphereFogDensityDay="0.6000000"
+  atmosphereFogDensityNight="0.3000000"
+  atmosphereFogColorDay="227,84,40"
+  atmosphereFogColorNight="24,0,60"
+  atmosphereFogColorSunset="155,20,0"
+  atmosphereFogDistance="200.0"
+  atmosphereNoiseTiling="60.000000"
+  atmosphereNoiseShift="0.100000"
+  atmosphereSkyColorDayBottom="165,59,27"
+  atmosphereSkyColorDayTop="227,84,40"
+  atmosphereSkyColorSunsetBottom="179,20,0"
+  atmosphereSkyColorSunsetTop="297,60,0"
+  atmosphereSkyColorNightBottom="10,0,10"
+  atmosphereSkyColorNightTop="24,0,60"
+  atmosphereSkyColorTransitionNight="0.000000"
+  atmosphereSkyColorTransitionSunset="50.000000"
+  atmosphereSkyColorTransitionSunrise="50.000000"
+  atmosphereSkyColorTransitionDay="100.000000"
+  atmosphereSkyTransparencyDayBottom="0.10000"
+  atmosphereSkyTransparencyDayTop="0.000000"
+  atmosphereSkyTransparencyNightBottom="0.300000"
+  atmosphereSkyTransparencyNightTop="0.200000"
+  
+  backLightYaw0="180.000000"
+  backLightYaw1="-90.000000"
+  backLightPitch0="0.000000"
+  backLightPitch1="45.000000"
+  
+  ambientLightTextureIndex="0.000000"
+  keyLightColorNight="255,255,255"
+  backLightColor0="31,38,67"
+  backLightColor1="40,72,80"
+  backLightCount="1"
+  canLand="1"
+  canInteract="1"
+  music="Rocky"
+  >
+  
+  <mineralRecord totalRu="10">
+    <elementWeights>
+      <MineralElementWeightRecord group="Common Element" weightModifier=".1" />
+      <MineralElementWeightRecord element="Carbon" weightModifier="50" />
+    </elementWeights>
+    
+    <difficultyWeights>
+      <MineralDifficultyWeightRecord difficulty="1" ruWeight="100"/>
+    </difficultyWeights>
+  </mineralRecord>
+  
+  <critterRecord>
+    <critterCounts>
+    </critterCounts>
+  </critterRecord>
+  
+</PlanetTemplate>

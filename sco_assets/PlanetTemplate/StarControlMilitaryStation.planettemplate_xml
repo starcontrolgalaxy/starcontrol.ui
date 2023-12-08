@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PlanetTemplate
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../Schemas/PlanetTemplate.xsd"
+  internalID="StarControlMilitaryStation"
+  name="StarControlMilitaryStation"
+  inheritsFrom="default"
+  solarSystemModelName="SCTrainingArena"
+  colorHue="0.7,0.8,0.9"
+  canLand="0"
+  atmosphereDensity="0.0"
+  >
+</PlanetTemplate>

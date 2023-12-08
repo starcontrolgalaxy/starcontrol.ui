@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PlanetTemplate
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../Schemas/PlanetTemplate.xsd"
+  internalID="StoryPlanetLanderLore19"
+  name="StoryPlanetLanderLore19"
+  inheritsFrom="Cyanic"
+  >
+  <stampInstanceRecord>
+    <StampInstances>
+      <PlanetStampInstance stamp="CharacterSpawner_LanderLore19" origin="1.0,0.0,0.0" forwardDir="-0.427987,0.903785,0.000000"/>
+      <PlanetStampInstance stamp="CharacterSpawner_LanderLore19a" origin="0.894427,0.447213,0.0" forwardDir="-0.427987,0.903785,0.000000"/>
+      <PlanetStampInstance stamp="CharacterSpawner_LanderLore19b" origin="0.447213,0.894427,0.0" forwardDir="-0.427987,0.903785,0.000000"/>
+      <PlanetStampInstance stamp="CharacterSpawner_LanderLore19c" origin="0.0,1.0,0.0" forwardDir="-0.427987,0.903785,0.000000"/>
+    </StampInstances>
+  </stampInstanceRecord>
+</PlanetTemplate>

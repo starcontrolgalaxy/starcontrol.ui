@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PlanetTemplate
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../Schemas/PlanetTemplate.xsd"
+  internalID="GasGiant5"
+  name="GasGiant5"
+  inheritsFrom="default"
+  type="UI_PlanetScan_PlanetType_Neptune"
+  solarSystemModelName="GasGiant06"
+  gravityFactor="1.0"
+  temperatureFactor="1.0"
+  weatherFactor="1.0"
+  biologyFactor="0.0"
+  colorHue="0.6,0.3,0.3"
+  colorIntensity="1.0"
+  baseTerrainMaterial="SandWaveyBeige"
+  stampList=""
+  environment="GasGiant"
+  atmosphereSize="1.0"
+  atmosphereHaloSize="0.5"
+  music="Rocky"
+  canLand="0"
+  canInteract="0"
+  temperatureKOverride="107"
+  gravityMSSOverride = "18.6"
+  toxicityFactor="0.450000"
+  billboard="PlanetoidIcon_GasGiant5"
+  >
+  
+  <critterRecord>
+    <critterCounts>
+    </critterCounts>
+  </critterRecord>
+  
+</PlanetTemplate>

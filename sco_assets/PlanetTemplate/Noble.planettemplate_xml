@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PlanetTemplate
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../Schemas/PlanetTemplate.xsd"
+  internalID="Noble"
+  name="Noble"
+  inheritsFrom="default"
+  solarSystemModelName="Frozen"
+  type="UI_PlanetScan_PlanetType_Noble"
+  
+  gravityFactor="0.4"
+  temperatureFactor="0.1"
+  weatherFactor="0.3"
+  biologyFactor="0.0"
+  
+  canLand="1"
+  canInteract="1"
+  
+  landerDayParticleFX="BlizzardLanderEffect_Main"
+  landerNightParticleFX="BlizzardLanderEffect_Main"
+  landerLandingParticleFX="BlizzardLanderEffect_Main"
+ atmosphereHaloColor="105,118,176,80"
+  atmosphereSize="0.200000" 
+  atmosphereDensity="0.990000" 
+  atmosphereHaloSize="0.1000" 
+  atmosphereHaloDensity="0.100000" 
+  atmosphereHaloInnerFalloff="0.010000" 
+  atmosphereHaloRingThreshold="0.2500000" 
+  atmosphereHaloRingThicknessExponent="32.000000" 
+  atmosphereMinIntensity="0.000000" 
+  
+
+  atmosphereDarknessSaturation="1.000000" 
+  atmosphereFogDensityDay="0.200000" 
+  atmosphereFogDensityNight="0.4000000"
+  atmosphereFogColorDay="250,250,170" 
+  atmosphereFogColorNight="110,90,120" 
+  atmosphereFogColorSunset="150,150,170"
+  atmosphereFogDistance="150.0"
+  atmosphereNoiseTiling="60.000000" 
+  atmosphereNoiseShift="0.100000" 
+  atmosphereSkyColorDayBottom="180,35,217"
+  atmosphereSkyColorDayTop="193,18,250"
+  atmosphereSkyColorSunsetBottom="90,10,160"
+  atmosphereSkyColorSunsetTop="50,10,160"
+  atmosphereSkyColorNightBottom="9,15,16"
+  atmosphereSkyColorNightTop="0,0,0"
+ atmosphereSkyColorTransitionNight="0.000000" 
+  atmosphereSkyColorTransitionSunset="50.000000" 
+  atmosphereSkyColorTransitionSunrise="50.000000" 
+  atmosphereSkyColorTransitionDay="100.000000" 
+  atmosphereSkyTransparencyDayBottom="0.500000" 
+  atmosphereSkyTransparencyDayTop="0.500000"
+  atmosphereSkyTransparencyNightBottom="0.500000" 
+  atmosphereSkyTransparencyNightTop="0.500000"
+  planetScanFogLevel="0.04"
+
+ 
+  baseTerrainMaterial="ChunkySnow"
+  stampList="Noble_Surface"
+  environment="Ice"
+  music="Canyon"
+  >
+  
+  <mineralRecord totalRu="650">
+    <elementWeights>
+      <MineralElementWeightRecord element="Argon" weightModifier="2.5" />
+      <MineralElementWeightRecord element="Neon" weightModifier="3.5" />
+      <MineralElementWeightRecord element="Oxygen" weightModifier="2.5" />
+      <MineralElementWeightRecord element="Helium" weightModifier="3.5" />
+      <MineralElementWeightRecord element="Samarium" weightModifier="2.5" />
+      <MineralElementWeightRecord element="Radon" weightModifier="3.5" />
+      <MineralElementWeightRecord element="Xenon" weightModifier="1.5" />
+    </elementWeights>
+    
+    <difficultyWeights>
+      <MineralDifficultyWeightRecord difficulty="1" ruWeight="10"/>
+      <MineralDifficultyWeightRecord difficulty="2" ruWeight="5"/>
+      <MineralDifficultyWeightRecord difficulty="3" ruWeight="1"/>
+    </difficultyWeights>
+  </mineralRecord>
+  
+  <critterRecord>
+    <critterCounts>
+    </critterCounts>
+  </critterRecord>
+  
+  <hazardRecord>
+    <hazardCounts>
+      <HazardCountRecord hazard="BlizzardStorm" count="3"/>
+      <HazardCountRecord hazard="BaseLightning" count="5"/>
+    </hazardCounts>
+	</hazardRecord>
+  
+</PlanetTemplate>

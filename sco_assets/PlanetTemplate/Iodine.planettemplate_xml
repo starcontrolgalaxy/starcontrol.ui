@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PlanetTemplate
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../Schemas/PlanetTemplate.xsd"
+  internalID="Iodine"
+  name="Iodine"
+  inheritsFrom="default"
+  solarSystemModelName="Iodine"
+  type="UI_PlanetScan_PlanetType_Iodine"
+  gravityFactor="0.2"
+  temperatureFactor="0.2"
+  toxicityFactor="0.77"
+  weatherFactor="0.2"
+  biologyFactor="0.1"
+  baseTerrainMaterial="DesertVenusSand02"
+  stampList="Moon_Iodine"
+  environment="Crystaline"
+  music="Desert"
+  billboard="PlanetoidIcon_Iodine"
+
+
+  backLightYaw0="180.000000" 
+  backLightYaw1="-90.000000" 
+  backLightPitch0="0.000000" 
+  backLightPitch1="45.000000" 
+  ambientLightTextureIndex="0.000000" 
+  keyLightColorNight="255,255,255" 
+  backLightColor0="31,38,67" 
+  backLightColor1="40,72,80" 
+  backLightCount="1"
+  
+  atmosphereHaloColor="250,250,5,40"
+  planetScanFogLevel="0.27"
+  atmosphereFogDensityDay="0.1900000"
+  atmosphereFogDensityNight="0.0000000"
+  atmosphereFogColorDay="207,249,255"
+  atmosphereFogColorNight="5,0,0"
+  atmosphereFogColorSunset="255,120,118"
+  atmosphereFogDistance="280.0"
+  atmosphereNoiseTiling="60.000000"
+  atmosphereNoiseShift="0.300000"
+  atmosphereSkyColorDayBottom="257,235,55"
+  atmosphereSkyColorDayTop="211,252,4"
+  atmosphereSkyColorSunsetBottom="250,59,31"
+  atmosphereSkyColorSunsetTop="254,10,91"
+  atmosphereSkyColorNightBottom="3,0,3"
+  atmosphereSkyColorNightTop="0,0,0"
+  atmosphereSkyColorTransitionNight="0.000000"
+  atmosphereSkyColorTransitionSunset="50.000000"
+  atmosphereSkyColorTransitionSunrise="50.000000"
+  atmosphereSkyColorTransitionDay="100.000000"
+  atmosphereSkyTransparencyDayBottom="0.200000"
+  atmosphereSkyTransparencyDayTop="0.300000"
+  atmosphereSkyTransparencyNightBottom="0.800000"
+  atmosphereSkyTransparencyNightTop="0.900000"
+  
+  
+  atmosphereHaloSize="0.315"
+  atmosphereHaloDensity="0.100000"
+  atmosphereDensity="1.0"
+  landerDayParticleFX="AlkaliLanderEffect_Main"
+  landerNightParticleFX="AlkaliLanderEffect_Main"
+  landerLandingParticleFX="AlkaliLanderEffect_Main"  
+  >
+  
+  <mineralRecord totalRu="950">
+    <elementWeights>
+      <MineralElementWeightRecord element="Hydrochloric Acid" weightModifier="1" />
+      <MineralElementWeightRecord element="Iodine" weightModifier="2" />
+      <MineralElementWeightRecord element="Nitric Acid" weightModifier="1" />
+      <MineralElementWeightRecord element="Phosphoric Acid" weightModifier="1" />
+      <MineralElementWeightRecord element="Bromine" weightModifier="1" />
+      <MineralElementWeightRecord element="Chlorine" weightModifier="1" />
+    </elementWeights>
+    <difficultyWeights>
+      <MineralDifficultyWeightRecord difficulty="1" ruWeight="19.000000"/>
+      <MineralDifficultyWeightRecord difficulty="2" ruWeight="99.000000"/>
+    </difficultyWeights>
+  </mineralRecord>
+  
+  <critterRecord>
+    <critterCounts>
+      <CritterCountRecord critter="Critter16d" existsProbability="0.1" count="1" />
+      <CritterCountRecord critter="Critter16c" existsProbability="1.0" count="10" />
+    </critterCounts>
+  </critterRecord>
+  
+</PlanetTemplate>

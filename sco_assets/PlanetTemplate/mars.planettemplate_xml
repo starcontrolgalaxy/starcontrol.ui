@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PlanetTemplate
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../Schemas/PlanetTemplate.xsd"
+  internalID="mars"
+  name="mars"
+  inheritsFrom="default"
+  solarSystemModelName="UnitSphere_Earth"
+  colorHue="0.6,0.2,0.2"
+  colorIntensity="1.0"
+  music="Canyon"
+  >
+</PlanetTemplate>

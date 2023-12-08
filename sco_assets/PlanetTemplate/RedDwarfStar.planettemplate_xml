@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PlanetTemplate
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../Schemas/PlanetTemplate.xsd"
+  internalID="RedDwarfStar"
+  name="RedDwarfStar"
+  inheritsFrom="GasGiant"
+  type="UI_PlanetScan_PlanetType_DwarfStar_Red"
+  solarSystemModelName="UnitSphere_RedDwarfStar"
+  temperatureFactor="5.0"
+  isDwarfStar="true"
+  />

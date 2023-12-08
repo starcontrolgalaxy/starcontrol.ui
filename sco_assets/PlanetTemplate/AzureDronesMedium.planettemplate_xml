@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PlanetTemplate
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../Schemas/PlanetTemplate.xsd"
+  internalID="AzureDronesMedium"
+  name="AzureDronesMedium"
+  inheritsFrom="default"
+  solarSystemModelName="AlienVeg"
+  type="UI_PlanetScan_PlanetType_Azure"
+  gravityFactor="0.4"
+  temperatureFactor="0.5"
+  weatherFactor="0.2"
+  biologyFactor="0.33"
+  baseTerrainMaterial="FrozenBaseSnow"
+  stampList="Alien_Azure"
+  environment="Rainbow"
+  
+  music="Ruby"
+  
+  atmosphereSize="0.400000"
+  atmosphereDensity="0.990000"
+  atmosphereHaloSize="0.5000"
+  atmosphereHaloDensity="0.200000"
+  atmosphereHaloInnerFalloff="0.010000"
+  atmosphereHaloRingThreshold="0.2500000"
+  atmosphereHaloRingThicknessExponent="32.000000"
+  atmosphereMinIntensity="0.000000"
+  atmosphereDarknessSaturation="1.000000"
+  atmosphereFogDensityDay="0.800000"
+  atmosphereFogDensityNight="0.6000000"
+  atmosphereFogColorDay="97,99,233"
+  atmosphereFogColorNight="10,10,40"
+  atmosphereFogColorSunset="20,20,120"
+  atmosphereFogDistance="450.0"
+  atmosphereNoiseTiling="60.000000"
+  atmosphereNoiseShift="0.300000"
+  atmosphereSkyColorDayBottom="95,69,109"
+  atmosphereSkyColorDayTop="87,99,156"
+  atmosphereSkyColorSunsetBottom="2,2,20"
+  atmosphereSkyColorSunsetTop="10,10,40"
+  atmosphereSkyColorNightBottom="3,2,20"
+  atmosphereSkyColorNightTop="12,10,40"
+  atmosphereSkyColorTransitionNight="0.000000"
+  atmosphereSkyColorTransitionSunset="50.000000"
+  atmosphereSkyColorTransitionSunrise="50.000000"
+  atmosphereSkyColorTransitionDay="100.000000"
+  atmosphereSkyTransparencyDayBottom="0.50000"
+  atmosphereSkyTransparencyDayTop="0.30000"
+  atmosphereSkyTransparencyNightBottom="0.500000"
+  atmosphereSkyTransparencyNightTop="0.300000"
+  planetScanFogLevel="0.1"
+  atmosphereHaloColor="40,54,212,70"  
+  >
+  
+  <mineralRecord totalRu="300">
+    <elementWeights>
+      <MineralElementWeightRecord element="Indium" weightModifier="1.5"/>
+      <MineralElementWeightRecord element="Vanadium" weightModifier="1.5"/>
+      <MineralElementWeightRecord element="Molybdenum" weightModifier="11.5"/>
+    </elementWeights>
+  </mineralRecord>
+
+  <critterRecord>
+    <critterCounts>
+      <CritterCountRecord critter="SecurityDrone2" existsProbability="1" count="20" />
+    </critterCounts>
+  </critterRecord>
+
+  <hazardRecord>
+    <hazardCounts>
+      <HazardCountRecord hazard="Geyser" count="1"/>
+    </hazardCounts>
+  </hazardRecord>  
+  
+</PlanetTemplate>

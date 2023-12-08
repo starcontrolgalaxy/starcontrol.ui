@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PlanetTemplate
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../Schemas/PlanetTemplate.xsd"
+  internalID="StoryPlanetSkekaye"
+  name="StoryPlanetSkekaye"
+  inheritsFrom="Sturtian"
+  >
+
+  <stampInstanceRecord>
+    <StampInstances>
+      <PlanetStampInstance stamp="CharacterSpawner_Default" origin="-0.888976,-0.420974,0.180286" forwardDir="-0.427987,0.903785,0.000000"/>
+      <PlanetStampInstance stamp="CharacterSpawner_Default" origin="0.988293,0.001586,-0.152556"  forwardDir="0.001605,-0.999999,0.000000"/>
+    </StampInstances>
+  </stampInstanceRecord>
+
+</PlanetTemplate>

@@ -1,0 +1,53 @@
+<Counters>
+  <Counter internalID="Aggressive" defaultValue="0" description="How prone to wanting to solve problems with violence the player is." />
+  <Counter internalID="AlaraMercenaryApproval" defaultValue="0" description="Woo Alara" />
+  <Counter internalID="Amicable" defaultValue="0" description="Player chose to be agreeable." />
+  <Counter internalID="Angry" defaultValue="0" description="Player chose the angry response." />
+  <Counter internalID="Brave" defaultValue="0" description="Player gives brave responses." />
+  <Counter internalID="Cagey" defaultValue="0" description="Player is careful in their responses." />
+  <Counter internalID="Cooperative" defaultValue="0" description="How much the player prefers to cooperate and work with others." />
+  <Counter internalID="CrewRestocked" defaultValue="0" description="" />
+  <Counter internalID="Criminality" defaultValue="0" description="Player has engaged in criminal activity" />
+  <Counter internalID="DestroyedsiriusConvoycount" defaultValue="0" description="How many sirius convoys the player has destroyed." />
+  <Counter internalID="FreeTywomShipsGot" defaultValue="0" description="Number of free ships the Tywom have given us." />
+  <Counter internalID="Greedy" defaultValue="0" description="When a player makes a greedy choice." />
+  <Counter internalID="GreegroxMoveDate0_1" defaultValue="100" description="" />
+  <Counter internalID="GreegroxMoveDate1" defaultValue="125" description="" />
+  <Counter internalID="GreegroxMoveDate1_1" defaultValue="175" description="" />
+  <Counter internalID="GreegroxMoveDate1_2" defaultValue="225" description="" />
+  <Counter internalID="GreegroxMoveDate2" defaultValue="250" description="" />
+  <Counter internalID="GreegroxMoveDate2_1" defaultValue="300" description="" />
+  <Counter internalID="GreegroxMoveDate2_2" defaultValue="350" description="" />
+  <Counter internalID="GreegroxMoveDate3" defaultValue="375" description="" />
+  <Counter internalID="GreegroxMoveDate3_1" defaultValue="425" description="" />
+  <Counter internalID="GreegroxMoveDate3_2" defaultValue="475" description="" />
+  <Counter internalID="GreegroxMoveDate4" defaultValue="500" description="" />
+  <Counter internalID="GreegroxMoveDate4_1" defaultValue="600" description="" />
+  <Counter internalID="GreegroxMoveDate4_2" defaultValue="700" description="" />
+  <Counter internalID="GreegroxMoveDate5" defaultValue="750" description="" />
+  <Counter internalID="KzantiShipsDestroyed" defaultValue="0" description="" />
+  <Counter internalID="MercenaryGeneric_Attacked" defaultValue="0" description="How many times has the generic mercenary attacked the player?" />
+  <Counter internalID="MukayDrenkendComplaintDelay1" defaultValue="100" description="" />
+  <Counter internalID="MukayDrenkendComplaintDelay2" defaultValue="300" description="" />
+  <Counter internalID="MukayDrenkendComplaintDelay3" defaultValue="500" description="" />
+  <Counter internalID="MukayIceWorldsReturned" defaultValue="0" description="." />
+  <Counter internalID="PlayerNice" defaultValue="0" description="How nice has the player been to everyone." />
+  <Counter internalID="PlayerNiceGreegrox" defaultValue="0" description="How nice has the player been to the Greegrox?" />
+  <Counter internalID="PlayerNiceMenkmack" defaultValue="0" description="How nice has the player been to the Menkmack?" />
+  <Counter internalID="PlayerNiceMowlings" defaultValue="0" description="How nice is the player being to the Mowlings?" />
+  <Counter internalID="PlayerNiceMukay" defaultValue="0" description="How nice is the player to the Mukay?" />
+  <Counter internalID="PlayerNicePinthi" defaultValue="0" description="How nice has the player been to the Pinthi?" />
+  <Counter internalID="PlayerNiceScryve" defaultValue="0" description="Has the player done things to change Scryve perceptions of them" />
+  <Counter internalID="PlayerNiceTywom" defaultValue="0" description="How nice has the player been to the Tywom?" />
+  <Counter internalID="SacraDefend" defaultValue="0" description="How many times has the player waited to defend the Sacra homeworld?" />
+  <Counter internalID="ScryveShipsDestroyed" defaultValue="0" description="." />
+  <Counter internalID="SiriusKzantiDestroyed1" defaultValue="0" description="Player has destroyed Sirius Kzanti" />
+  <Counter internalID="SiriusYimShipsDestroyed" defaultValue="0" description="How many ships the player has destroyed." />
+  <Counter internalID="Suspicious" defaultValue="0" description="How distrusting the player is." />
+  <Counter internalID="ThingsDoneForMukay" defaultValue="0" description="." />
+  <Counter internalID="TrandalGenericDestroyed" defaultValue="0" description="" />
+  <Counter internalID="VaultMemory" defaultValue="0" description="How many Pillars had the player discovered last time he visited the Vault?" />
+  <Counter internalID="VaultPillar" defaultValue="0" description="How many pillars has the player activated?" />
+  <Counter internalID="Xenophobic" defaultValue="0" description="Player doesn't trust aliens." />
+  <Counter internalID="XrakiAssaultFleetsEncountered" defaultValue="0" description="." />
+</Counters>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PlanetTemplate
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../Schemas/PlanetTemplate.xsd"
+  internalID="Terrestrial"
+  name="Terrestrial"
+  inheritsFrom="default"
+  solarSystemModelName="Terrestrial"
+  
+  atmosphereHaloSize="0.45"
+  atmosphereHaloDensity="0.800000"
+  atmosphereDensity="1.0"
+  
+  type="UI_PlanetScan_PlanetType_Terrestrial"
+  
+  gravityFactor="0.4"
+  temperatureFactor="0.5"
+  weatherFactor="0.2"
+  biologyFactor="0.6"
+  
+  baseTerrainMaterial="TerrestrialBaseGrass"
+  stampList="Terrestrial_Habitable"
+  billboard="PlanetoidIcon_Terrestrial"  
+  environment="Gaia"
+  
+  atmosphereHaloColor="200,250,215,40"
+  planetScanFogLevel="0.17" 
+  atmosphereFogDensityDay="0.3900000"
+  atmosphereFogDensityNight="0.0000000"
+  atmosphereFogColorDay="207,249,255"
+  atmosphereFogColorNight="5,0,0"
+  atmosphereFogColorSunset="185,180,118"
+  atmosphereFogDistance="260.0"
+  atmosphereNoiseTiling="60.000000"
+  atmosphereNoiseShift="0.300000"
+  atmosphereSkyColorDayBottom="17,255,155"
+  atmosphereSkyColorDayTop="41,255,214"
+  atmosphereSkyColorSunsetBottom="250,159,131"
+  atmosphereSkyColorSunsetTop="255,140,91"
+  atmosphereSkyColorNightBottom="3,0,3"
+  atmosphereSkyColorNightTop="0,0,0"
+  atmosphereSkyColorTransitionNight="0.000000"
+  atmosphereSkyColorTransitionSunset="50.000000"
+  atmosphereSkyColorTransitionSunrise="50.000000"
+  atmosphereSkyColorTransitionDay="100.000000"
+  atmosphereSkyTransparencyDayBottom="0.200000"
+  atmosphereSkyTransparencyDayTop="0.300000"
+  atmosphereSkyTransparencyNightBottom="0.800000"
+  atmosphereSkyTransparencyNightTop="0.900000"
+  
+  landerDayParticleFX="GenericLanderEffect_Main"
+  landerNightParticleFX="GenericLanderEffect_Main"
+  landerLandingParticleFX="GenericLanderEffect_Main"  
+  
+  backLightYaw0="180.000000"
+  backLightYaw1="-90.000000"
+  backLightPitch0="0.000000"
+  backLightPitch1="45.000000"
+  ambientLightTextureIndex="0.000000"
+  keyLightColorNight="255,255,255"
+  backLightColor0="31,38,67"
+  backLightColor1="40,72,80"
+  backLightCount="1"
+  
+  cloudSpeed="-0.015,0.005,-0.009,-0.008"
+  
+  music="Earth"  
+  >
+  
+  <reentryRecord windCameraShake="0.175000" fallSpeed="1.000000"/>
+
+  <mineralRecord totalRu="2950">
+    <elementWeights>
+      <MineralElementWeightRecord element="Zinc" weightModifier="1" />
+      <MineralElementWeightRecord element="Gadolinium" weightModifier="1" />
+      <MineralElementWeightRecord element="Nitrogen" weightModifier="1.5" />
+      <MineralElementWeightRecord element="Oxygen" weightModifier="1.5" />
+      <MineralElementWeightRecord element="Silicon" weightModifier="1.5" />
+      <MineralElementWeightRecord element="Aluminium" weightModifier=".5" />
+    </elementWeights>
+  </mineralRecord>
+  
+  <critterRecord>
+    <critterCounts>
+      <CritterCountRecord critter="Critter1c" existsProbability="1.0" count="4" />
+      <CritterCountRecord critter="Critter9a" existsProbability="1" count="6" />
+    </critterCounts>
+  </critterRecord>
+
+  <hazardRecord>
+    <hazardCounts>
+      <HazardCountRecord hazard="Earthquake" count="5"/>
+      <HazardCountRecord hazard="MildStorm" count="2"/>
+      <HazardCountRecord hazard="BaseLightning" count="5"/>
+    </hazardCounts>
+  </hazardRecord>
+
+</PlanetTemplate>

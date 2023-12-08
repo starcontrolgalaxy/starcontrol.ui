@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PlanetTemplate
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../Schemas/PlanetTemplate.xsd"
+  internalID="StartingPlanetMiranda"
+  name="StartingPlanetMiranda"
+  inheritsFrom="default"
+  solarSystemModelName="Copper"
+  type="UI_PlanetScan_PlanetType_Copper"
+  
+  temperatureKOverride="86"
+  gravityFactor="0.5"
+  temperatureFactor="0.1132"
+  weatherFactor="0.0"
+  biologyFactor="0.0"
+  billboard="PlanetoidIcon_Copper"
+  
+  atmosphereSize="0.200000" 
+  atmosphereDensity="0.990000" 
+  atmosphereHaloSize="-0.4000" 
+  atmosphereHaloDensity="0.100000" 
+  atmosphereHaloInnerFalloff="0.010000" 
+  atmosphereHaloRingThreshold="0.2500000" 
+  atmosphereHaloRingThicknessExponent="32.000000" 
+  atmosphereHaloColor="60,150,115,20"
+  atmosphereMinIntensity="0.000000" 
+  atmosphereDarknessSaturation="1.000000" 
+  atmosphereFogDensityDay="0.500000" 
+  atmosphereFogDensityNight="0.5000000"
+  atmosphereFogColorDay="50,200,120" 
+  atmosphereFogColorNight="1,100,20" 
+  atmosphereFogColorSunset="50,200,120"
+  atmosphereFogDistance="600.0"
+  atmosphereNoiseTiling="60.000000" 
+  atmosphereNoiseShift="0.100000" 
+  atmosphereSkyColorDayBottom="5,95,70"
+  atmosphereSkyColorDayTop="25,70,20"
+  atmosphereSkyColorSunsetBottom="9,150,60"
+  atmosphereSkyColorSunsetTop="5,100,60"
+  atmosphereSkyColorNightBottom="1,20,10"
+  atmosphereSkyColorNightTop="1,50,20"                          
+  atmosphereSkyColorTransitionNight="0.000000" 
+  atmosphereSkyColorTransitionSunset="50.000000" 
+  atmosphereSkyColorTransitionSunrise="50.000000" 
+  atmosphereSkyColorTransitionDay="100.000000" 
+  atmosphereSkyTransparencyDayBottom="0.90000" 
+  atmosphereSkyTransparencyDayTop="0.750000"
+  atmosphereSkyTransparencyNightBottom="0.9700000" 
+  atmosphereSkyTransparencyNightTop="0.900000"
+  baseTerrainMaterial="Copper"
+  stampList="Copper"
+  music="Metal"
+  >
+  
+  <mineralRecord totalRu="90">
+    <elementWeights>
+      <MineralElementWeightRecord element="Copper" weightModifier="550"/>
+      <MineralElementWeightRecord group="Base Metal" weightModifier="0.93" />
+      <MineralElementWeightRecord group="Common Element" weightModifier=".105" />
+      <MineralElementWeightRecord group="Rare Earth" weightModifier="1.8" />
+    </elementWeights>
+    
+    <difficultyWeights>
+      <MineralDifficultyWeightRecord difficulty="1" ruWeight="100"/>
+    </difficultyWeights>
+  </mineralRecord>
+  
+  <critterRecord>
+    <critterCounts>
+    </critterCounts>
+  </critterRecord>
+  
+</PlanetTemplate>

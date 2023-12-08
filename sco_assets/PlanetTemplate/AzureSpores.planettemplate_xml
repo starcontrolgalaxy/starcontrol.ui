@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PlanetTemplate
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../Schemas/PlanetTemplate.xsd"
+  internalID="AzureSpores"
+  name="AzureSpores"
+  inheritsFrom="Azure"
+  solarSystemModelName="AlienVeg"
+  type="UI_PlanetScan_PlanetType_Azure"
+  >
+  
+  <mineralRecord totalRu="300">
+    <elementWeights>
+      <MineralElementWeightRecord element="Indium" weightModifier="1.5"/>
+      <MineralElementWeightRecord element="Vanadium" weightModifier="1.5"/>
+      <MineralElementWeightRecord element="Molybdenum" weightModifier="11.5"/>
+    </elementWeights>
+  </mineralRecord>
+
+  <critterRecord>
+    <critterCounts>
+      <CritterCountRecord critter="Critter16d" existsProbability="1" count="20" />
+      <CritterCountRecord critter="Spore" existsProbability="1.0" count="20" />
+    </critterCounts>
+  </critterRecord>
+
+  <hazardRecord>
+    <hazardCounts>
+      <HazardCountRecord hazard="Geyser" count="1"/>
+    </hazardCounts>
+  </hazardRecord>  
+  
+</PlanetTemplate>

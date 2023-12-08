@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PlanetTemplate
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../Schemas/PlanetTemplate.xsd"
+  internalID="IodineSpores"
+  name="IodineSpores"
+  inheritsFrom="Iodine"
+  solarSystemModelName="Iodine"
+  type="UI_PlanetScan_PlanetType_Iodine"
+  >
+  
+  <mineralRecord totalRu="950">
+    <elementWeights>
+      <MineralElementWeightRecord element="Hydrochloric Acid" weightModifier="1" />
+      <MineralElementWeightRecord element="Iodine" weightModifier="2" />
+      <MineralElementWeightRecord element="Nitric Acid" weightModifier="1" />
+      <MineralElementWeightRecord element="Phosphoric Acid" weightModifier="1" />
+      <MineralElementWeightRecord element="Bromine" weightModifier="1" />
+      <MineralElementWeightRecord element="Chlorine" weightModifier="1" />
+    </elementWeights>
+    <difficultyWeights>
+      <MineralDifficultyWeightRecord difficulty="1" ruWeight="19.000000"/>
+      <MineralDifficultyWeightRecord difficulty="2" ruWeight="99.000000"/>
+    </difficultyWeights>
+  </mineralRecord>
+  
+  <critterRecord>
+    <critterCounts>
+      <CritterCountRecord critter="Critter16d" existsProbability="0.1" count="1" />
+      <CritterCountRecord critter="Critter16c" existsProbability="1.0" count="10" />
+      <CritterCountRecord critter="Spore" existsProbability="1.0" count="20" />
+    </critterCounts>
+  </critterRecord>
+  
+</PlanetTemplate>

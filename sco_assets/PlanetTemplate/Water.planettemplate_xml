@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PlanetTemplate
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../Schemas/PlanetTemplate.xsd"
+  internalID="Water"
+  name="Water"
+  inheritsFrom="default"
+  solarSystemModelName="Sapphire"
+  type="UI_PlanetScan_PlanetType_Water"
+  
+  gravityFactor="0.4"
+  temperatureFactor="0.2"
+  weatherFactor="0.2"
+  biologyFactor="0.6"
+  
+  baseTerrainMaterial="GrassThickGreen"
+  stampList="Aquatic_Water"
+  environment="Crystaline"
+  atmosphereFogDensityDay="0"
+  atmosphereFogDensityNight="0"
+  >
+  
+  <critterRecord>
+    <critterCounts>
+      <CritterCountRecord critter="Critter29b" existsProbability="0.1" count="1" />
+      <CritterCountRecord critter="Critter29a" existsProbability="1.0" count="2" />
+      <CritterCountRecord critter="Critter30a" existsProbability="1.0" count="20" />
+    </critterCounts>
+  </critterRecord>
+  
+</PlanetTemplate>

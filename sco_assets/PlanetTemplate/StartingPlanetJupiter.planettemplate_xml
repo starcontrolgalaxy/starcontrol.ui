@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PlanetTemplate
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../Schemas/PlanetTemplate.xsd"
+  internalID="StartingPlanetJupiter"
+  name="StartingPlanetJupiter"
+  inheritsFrom="JupiterBase"
+  solarSystemModelName="Jupiter"
+  atmosphereDensity="0.990000" 
+  atmosphereHaloSize="0.750000" 
+  atmosphereHaloDensity="0.100000"
+  colorHue="0.94,0.62,0.33"
+  canLand="0"
+  toxicityFactor="0.400000"
+  billboard="Jupiter"
+  temperatureKOverride="128"
+  gravityMSSOverride = "24.79"
+  weatherFactor="0.900000" 
+  >
+  
+</PlanetTemplate>

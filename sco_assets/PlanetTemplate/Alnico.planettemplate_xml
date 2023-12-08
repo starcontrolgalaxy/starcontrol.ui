@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PlanetTemplate
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../Schemas/PlanetTemplate.xsd"
+  internalID="Alnico"
+  name="Alnico"
+  inheritsFrom="default"
+  solarSystemModelName="Metal"
+  type="UI_PlanetScan_PlanetType_Metal"
+  
+  gravityFactor="0.82"
+  temperatureFactor="0.23"
+  weatherFactor="0.0"
+  biologyFactor="0.0"
+  billboard="PlanetoidIcon_Metal"
+  
+  baseTerrainMaterial="Metal"
+  stampList="Alnico"  
+  environment="Treasure"
+  
+  atmosphereSkyTransparencyDayBottom="1.0"
+  atmosphereSkyTransparencyDayTop="1.0"  
+  atmosphereSkyTransparencyNightBottom="1.0"
+  atmosphereSkyTransparencyNightTop="1.0"
+  
+  atmosphereHaloColor="250,10,155,40"
+  planetScanFogLevel="0.07"
+  atmosphereFogDensityDay="0.1900000"
+  atmosphereFogDensityNight="0.0000000"
+  atmosphereFogColorDay="207,249,255"
+  atmosphereFogColorNight="5,0,0"
+  atmosphereFogColorSunset="255,120,118"
+  atmosphereFogDistance="280.0"
+  atmosphereNoiseTiling="60.000000"
+  atmosphereNoiseShift="0.300000"
+  atmosphereSkyColorDayBottom="117,255,55"
+  atmosphereSkyColorDayTop="11,252,254"
+  atmosphereSkyColorSunsetBottom="250,59,31"
+  atmosphereSkyColorSunsetTop="254,10,91"
+  atmosphereSkyColorNightBottom="3,0,3"
+  atmosphereSkyColorNightTop="0,0,0"
+  atmosphereSkyColorTransitionNight="0.000000"
+  atmosphereSkyColorTransitionSunset="50.000000"
+  atmosphereSkyColorTransitionSunrise="50.000000"
+  atmosphereSkyColorTransitionDay="100.000000"
+
+  
+  
+  music="Metal"
+  >
+  
+  <mineralRecord totalRu="1100">
+    <elementWeights>
+      <MineralElementWeightRecord element="Antimony" />
+      <MineralElementWeightRecord element="Cadmium" />
+      <MineralElementWeightRecord element="Iron" />
+      <MineralElementWeightRecord element="Chromium" />
+      <MineralElementWeightRecord element="Hafnium" />
+      <MineralElementWeightRecord element="Indium" />
+    </elementWeights>
+    <difficultyWeights>
+      <MineralDifficultyWeightRecord difficulty="1" ruWeight="10.000000"/>
+      <MineralDifficultyWeightRecord difficulty="2" ruWeight="99.000000"/>
+    </difficultyWeights>
+
+  </mineralRecord>  
+  
+  <critterRecord>
+    <critterCounts>
+    </critterCounts>
+  </critterRecord>
+
+  <hazardRecord>
+    <hazardCounts>
+      <HazardCountRecord hazard="BaseLightning" count="5"/>
+      <HazardCountRecord hazard="Burst_GreenAcid" count="2"/>
+      <HazardCountRecord hazard="BaseLava" count="9"/>
+      
+    </hazardCounts>
+  </hazardRecord>
+
+</PlanetTemplate>

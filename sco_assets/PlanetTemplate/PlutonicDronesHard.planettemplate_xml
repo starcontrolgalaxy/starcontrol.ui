@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PlanetTemplate
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../Schemas/PlanetTemplate.xsd"
+  internalID="PlutonicDronesHard"
+  name="PlutonicDronesHard"
+  inheritsFrom="default"
+  solarSystemModelName="Plutonic"
+  type="UI_PlanetScan_PlanetType_Plutonic"
+  gravityFactor="0.0"
+  temperatureFactor="0.2288"
+  weatherFactor="0.0"
+  biologyFactor="0.0"
+  baseTerrainMaterial="VolcanicBaseAsh"
+  stampList="Plutonic_Surface"  
+  environment="Barren"
+  atmosphereSkyTransparencyDayBottom="1.0"
+  atmosphereSkyTransparencyDayTop="1.0"  
+  atmosphereSkyTransparencyNightBottom="1.0"
+  atmosphereSkyTransparencyNightTop="1.0"
+  music="Rocky"
+  >
+  <mineralRecord totalRu="500">
+    <elementWeights>
+      <MineralElementWeightRecord element="Francium" weightModifier="35" />
+      <MineralElementWeightRecord element="Uranium" weightModifier="31" />
+      <MineralElementWeightRecord group="Common Element" weightModifier="0.1" />
+    </elementWeights>
+    <difficultyWeights>
+      <MineralDifficultyWeightRecord difficulty="1" ruWeight="10"/>
+      <MineralDifficultyWeightRecord difficulty="2" ruWeight="100"/>
+    </difficultyWeights>
+  </mineralRecord>
+  
+  <critterRecord>
+  <critterCounts>
+      <CritterCountRecord critter="SecurityDrone3" existsProbability="1" count="6" />
+    </critterCounts>
+  </critterRecord>
+  
+</PlanetTemplate>

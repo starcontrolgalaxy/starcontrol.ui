@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PlanetTemplate
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../Schemas/PlanetTemplate.xsd"
+  internalID="Radioactive"
+  name="Radioactive"
+  inheritsFrom="default"
+  solarSystemModelName="Ruby"
+  type="UI_PlanetScan_PlanetType_Radioactive"
+  
+  gravityFactor="0.4"
+  temperatureFactor="0.6"
+  weatherFactor="0.6"
+  biologyFactor="0.0"
+  toxicityFactor="0.950000"
+  
+  baseTerrainMaterial="RadioactiveSurface"
+  stampList="Desert_Radioactive"
+  environment="Desert"
+  music="Desert"
+  billboard="Pluto"  
+  
+  atmosphereSize="0.600000"
+  atmosphereDensity="0.890000"
+  atmosphereHaloSize="0.750000"
+  atmosphereHaloDensity="0.150000"
+  atmosphereHaloInnerFalloff="0.010000"
+  atmosphereHaloRingThreshold="0.500000"
+  atmosphereHaloRingThicknessExponent="32.000000"
+  atmosphereMinIntensity="0.000000"
+  atmosphereDarknessSaturation="1.000000"
+  atmosphereFogDensityDay="0.150000"
+  atmosphereFogDensityNight="0.100000"
+  atmosphereFogColorDay="227,37,38"
+  atmosphereFogColorNight="13,2,2"
+  atmosphereFogColorSunset="157,97,38"
+  atmosphereFogDistance="430.0"
+  atmosphereNoiseTiling="60.000000"
+  atmosphereNoiseShift="0.100000"
+  atmosphereSkyColorDayBottom="242,220,49"
+  atmosphereSkyColorDayTop="192,119,29"
+  atmosphereSkyColorSunsetBottom="142,22,49"
+  atmosphereSkyColorSunsetTop="112,11,29"
+  atmosphereSkyColorNightBottom="4,0,0"
+  atmosphereSkyColorNightTop="10,0,0"
+  atmosphereSkyColorTransitionNight="0.000000"
+  atmosphereSkyColorTransitionSunset="50.000000"
+  atmosphereSkyColorTransitionSunrise="50.000000"
+  atmosphereSkyColorTransitionDay="100.000000"
+  atmosphereSkyTransparencyDayBottom="0.500000"
+  atmosphereSkyTransparencyDayTop="0.500000"
+  atmosphereSkyTransparencyNightBottom="0.9900000"
+  atmosphereSkyTransparencyNightTop="0.800000"
+  
+  backLightYaw0="180.000000"
+  backLightYaw1="-90.000000"
+  backLightPitch0="0.000000"
+  backLightPitch1="15.000000"
+  ambientLightTextureIndex="0.000000"
+  backLightColor0="91,38,67"
+  backLightColor1="80,72,40"
+  backLightCount="1"
+  
+  canLand="1"
+  canInteract="1"
+  
+  landerDayParticleFX="VenusLanderEffect_Main"
+  landerNightParticleFX="VenusLanderEffect_Main"
+  landerLandingParticleFX="GenericLanderEffect_Main"
+  
+  planetScanFogLevel="0.3"
+  atmosphereHaloColor="210,30,45,120"      
+  >
+  
+  <mineralRecord totalRu="4500">
+    <elementWeights>
+      <MineralElementWeightRecord group="Corrosive" weightModifier=".1" />
+      <MineralElementWeightRecord group="Radioactive" weightModifier="341" />
+      <MineralElementWeightRecord group="Rare Earth" weightModifier="1" />
+    </elementWeights>
+  </mineralRecord>
+  
+  <critterRecord>
+    <critterCounts>
+    </critterCounts>
+  </critterRecord>
+
+  <hazardRecord>
+    <hazardCounts>
+      <HazardCountRecord hazard="BaseLava" count="2"/>
+      <HazardCountRecord hazard="Burst_BlackAsh" count="12"/>
+      <HazardCountRecord hazard="Burst_GreenAcid" count="12"/>
+      <HazardCountRecord hazard="Earthquake" count="12"/>
+    </hazardCounts>
+  </hazardRecord>
+  
+</PlanetTemplate>

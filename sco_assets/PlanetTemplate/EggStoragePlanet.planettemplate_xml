@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PlanetTemplate
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../Schemas/PlanetTemplate.xsd"
+  internalID="EggStoragePlanet"
+  name="EggStoragePlanet"
+  inheritsFrom="Noble"
+  >
+
+  <critterRecord>
+    <critterCounts>
+      <CritterCountRecord critter="SecurityDrone3" existsProbability="1" count="10" />
+    </critterCounts>
+  </critterRecord>
+
+</PlanetTemplate>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PlanetTemplate
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../Schemas/PlanetTemplate.xsd"
+  internalID="StoryPlanetBetaPolarisIII"
+  name="StoryPlanetBetaPolarisIII"
+  inheritsFrom="Noble"
+  atmosphereSize="1.0"
+  atmosphereHaloSize="0.5"
+  >
+  <mineralRecord totalRu="2000">
+    <elementWeights>
+      <MineralElementWeightRecord element="Argon" weightModifier="2" />
+      <MineralElementWeightRecord element="Super Fluids" weightModifier="0.5"/>
+      <MineralElementWeightRecord element="Krypton" />
+      <MineralElementWeightRecord element="Radon" />
+    </elementWeights>
+  </mineralRecord>
+
+  <critterRecord>
+    <critterCounts>
+    </critterCounts>
+  </critterRecord>
+</PlanetTemplate>

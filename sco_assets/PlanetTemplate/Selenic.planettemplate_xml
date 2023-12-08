@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PlanetTemplate
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../Schemas/PlanetTemplate.xsd"
+  internalID="Selenic"
+  name="Selenic"
+  inheritsFrom="default"
+  solarSystemModelName="Moon"
+  type="UI_PlanetScan_PlanetType_Selenic"
+  
+  gravityFactor="0.5"
+  temperatureFactor="0.3"
+  weatherFactor="0.0"
+  biologyFactor="0.0"
+  
+  environment="Barren"
+  baseTerrainMaterial="MoonBaseDust"
+  
+  atmosphereHaloColor="61,61,63,120"
+  atmosphereSize="0.200000" 
+  atmosphereDensity="0.40000" 
+  atmosphereHaloSize="0.1000" 
+  atmosphereHaloDensity="0.500000" 
+  atmosphereHaloInnerFalloff="0.010000" 
+  atmosphereHaloRingThreshold="0.2500000" 
+  atmosphereHaloRingThicknessExponent="32.000000" 
+  atmosphereMinIntensity="0.000000" 
+  atmosphereDarknessSaturation="1.000000" 
+  atmosphereFogDensityDay="0.300000" 
+  atmosphereFogDensityNight="0.3000000"
+  atmosphereFogColorDay="61,61,63" 
+  atmosphereFogColorNight="30,30,30"
+  atmosphereFogColorSunset="61,61,63"
+  atmosphereFogDistance="350.0"
+  atmosphereNoiseTiling="60.000000" 
+  atmosphereNoiseShift="0.100000" 
+  atmosphereSkyColorDayBottom="61,61,63"
+  atmosphereSkyColorDayTop="61,61,63"
+  atmosphereSkyColorSunsetBottom="61,61,63"
+  atmosphereSkyColorSunsetTop="61,61,63"
+  atmosphereSkyColorNightBottom="30,30,30"
+  atmosphereSkyColorNightTop="30,30,30"
+  atmosphereSkyColorTransitionNight="0.000000" 
+  atmosphereSkyColorTransitionSunset="50.000000" 
+  atmosphereSkyColorTransitionSunrise="50.000000" 
+  atmosphereSkyColorTransitionDay="100.000000" 
+  atmosphereSkyTransparencyDayBottom="0.90000"
+  atmosphereSkyTransparencyDayTop="0.70000"
+  atmosphereSkyTransparencyNightBottom="0.800000"
+  atmosphereSkyTransparencyNightTop="0.600000"
+  planetScanFogLevel="0.05"
+  
+  billboard="PlanetoidIcon_Selenic"
+  music="Rocky"
+  stampList="Moon_Base"
+  
+  groundLandedParticleFX="LandingOnPlanet_Selenic"
+  groundLaunchedParticleFX="LeavingPlanet_Selenic"
+  >
+
+  <mineralRecord totalRu="25">
+    <elementWeights>
+      <MineralElementWeightRecord element="Calcium" group="" weightModifier="1.000000"/>
+      <MineralElementWeightRecord element="Silicon" group="" weightModifier="1.000000"/>
+      <MineralElementWeightRecord element="Aluminium" group="" weightModifier="0.50000"/>
+      <MineralElementWeightRecord element="Selenium" group="" weightModifier="0.200000"/>
+    </elementWeights>
+  </mineralRecord>
+
+  <destructibleRecord>
+    <destructibleCounts>
+      <DestructibleCountRecord destructible="DestructibleRockA" count="5"/>
+      <DestructibleCountRecord destructible="DestructibleRockB" count="4"/>
+      <DestructibleCountRecord destructible="DestructibleRockC" count="3"/>
+      <DestructibleCountRecord destructible="DestructibleRockD" count="2"/>
+    </destructibleCounts>
+  </destructibleRecord>
+
+</PlanetTemplate>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PlanetTemplate
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../Schemas/PlanetTemplate.xsd"
+  internalID="StartingPlanetCallisto"
+  name="StartingPlanetCallisto"
+  inheritsFrom="default"
+  solarSystemModelName="Pellucid"
+  type="UI_PlanetScan_PlanetType_Pellucid"
+  
+  temperatureKOverride="134"  
+  gravityFactor="0.6"
+  temperatureFactor="0.2"
+  weatherFactor="0.0"
+  biologyFactor="0.0"
+  
+  baseTerrainMaterial="MoonBaseDust"
+  stampList="Crystal_Pellucid"
+  environment="Crystaline"
+  music="Crystal"
+  billboard="PlanetoidIcon_Pellucid"
+  
+  atmosphereSize="0.200000" 
+  atmosphereDensity="0.40000" 
+  atmosphereHaloSize="0.1000" 
+  atmosphereHaloDensity="0.500000" 
+  atmosphereHaloInnerFalloff="0.010000" 
+  atmosphereHaloRingThreshold="0.2500000" 
+  atmosphereHaloRingThicknessExponent="32.000000" 
+  atmosphereMinIntensity="0.000000" 
+  atmosphereDarknessSaturation="1.000000" 
+  atmosphereFogDensityDay="0.300000" 
+  atmosphereFogDensityNight="0.3000000"
+  atmosphereFogColorDay="61,61,63" 
+  atmosphereFogColorNight="30,30,30"
+  atmosphereFogColorSunset="61,61,63"
+  atmosphereFogDistance="350.0"
+  atmosphereNoiseTiling="60.000000" 
+  atmosphereNoiseShift="0.100000" 
+  atmosphereSkyColorDayBottom="61,61,63"
+  atmosphereSkyColorDayTop="61,61,63"
+  atmosphereSkyColorSunsetBottom="61,61,63"
+  atmosphereSkyColorSunsetTop="61,61,63"
+  atmosphereSkyColorNightBottom="30,30,30"
+  atmosphereSkyColorNightTop="30,30,30"
+  atmosphereSkyColorTransitionNight="0.000000" 
+  atmosphereSkyColorTransitionSunset="50.000000" 
+  atmosphereSkyColorTransitionSunrise="50.000000" 
+  atmosphereSkyColorTransitionDay="100.000000" 
+  atmosphereSkyTransparencyDayBottom="0.90000"
+  atmosphereSkyTransparencyDayTop="0.70000"
+  atmosphereSkyTransparencyNightBottom="0.800000"
+  atmosphereSkyTransparencyNightTop="0.600000"
+  planetScanFogLevel="0.05"    
+  >
+  
+  <mineralRecord totalRu="50">
+    <elementWeights>
+
+      <MineralElementWeightRecord element="Silicon" weightModifier="4" />
+      <MineralElementWeightRecord element="Phosphorus" weightModifier="4" />
+      <MineralElementWeightRecord element="Rhenium" weightModifier="4" />
+      <MineralElementWeightRecord element="Thulium" weightModifier="4" />
+    </elementWeights>
+    
+    <difficultyWeights>
+      <MineralDifficultyWeightRecord difficulty="1" ruWeight="30.000000"/>
+      <MineralDifficultyWeightRecord difficulty="2" ruWeight="100.000000"/>
+    </difficultyWeights>
+  </mineralRecord>
+
+  <critterRecord>
+    <critterCounts>
+    </critterCounts>
+  </critterRecord>
+  
+</PlanetTemplate>

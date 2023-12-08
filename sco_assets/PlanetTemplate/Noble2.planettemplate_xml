@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PlanetTemplate
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../Schemas/PlanetTemplate.xsd"
+  internalID="Noble2"
+  name="Noble2"
+  inheritsFrom="default"
+  solarSystemModelName="Frozen"
+  type="UI_PlanetScan_PlanetType_Noble"
+  
+  gravityFactor="0.4"
+  temperatureFactor="0.05"
+  weatherFactor="0.8"
+  biologyFactor="0.0"
+  
+  canLand="1"
+  canInteract="1"
+  atmosphereSize="0.300000" 
+  atmosphereDensity="0.990000" 
+  atmosphereHaloSize="-0.2000" 
+  atmosphereHaloDensity="0.100000" 
+  atmosphereHaloInnerFalloff="0.010000" 
+  atmosphereHaloRingThreshold="0.2500000" 
+  atmosphereHaloRingThicknessExponent="32.000000" 
+  atmosphereMinIntensity="0.000000" 
+  atmosphereDarknessSaturation="1.000000" 
+  atmosphereFogDensityDay="0.800000" 
+  atmosphereFogDensityNight="0.4000000"
+  atmosphereFogColorDay="250,250,170" 
+  atmosphereFogColorNight="110,90,120" 
+  atmosphereFogColorSunset="150,150,170"
+  atmosphereFogDistance="150.0"
+  atmosphereNoiseTiling="60.000000" 
+  atmosphereNoiseShift="0.100000" 
+  atmosphereSkyColorDayBottom="180,235,217"
+  atmosphereSkyColorDayTop="163,218,200"
+  atmosphereSkyColorSunsetBottom="90,150,160"
+  atmosphereSkyColorSunsetTop="150,100,160"
+  atmosphereSkyColorNightBottom="9,15,16"
+  atmosphereSkyColorNightTop="10,20,40"
+  atmosphereSkyColorTransitionNight="0.000000" 
+  atmosphereSkyColorTransitionSunset="50.000000" 
+  atmosphereSkyColorTransitionSunrise="50.000000" 
+  atmosphereSkyColorTransitionDay="100.000000" 
+  atmosphereSkyTransparencyDayBottom="0.600000" 
+  atmosphereSkyTransparencyDayTop="0.500000"
+  atmosphereSkyTransparencyNightBottom="0.800000" 
+  atmosphereSkyTransparencyNightTop="0.500000"
+  planetScanFogLevel="0.04"
+
+ 
+  baseTerrainMaterial="ChunkySnow"
+  stampList="Noble_Surface2"
+  environment="Ice"
+  music="Canyon"
+  >
+  
+  <mineralRecord totalRu="2650">
+    <elementWeights>
+      <MineralElementWeightRecord element="Super Fluids" weightModifier="45.5"/>
+      <MineralElementWeightRecord element="Helium" weightModifier="45.5"/>
+      <MineralElementWeightRecord element="Argon" weightModifier="45.5"/>
+      <MineralElementWeightRecord element="Neon" weightModifier="45.5"/>
+     <MineralElementWeightRecord element="Ozone" weightModifier="45.5"/>
+      <MineralElementWeightRecord element="Water" weightModifier="45.5"/>
+      <MineralElementWeightRecord element="Formaldehyde" weightModifier="45.5"/>
+  
+
+    </elementWeights>
+    
+    <difficultyWeights>
+      <MineralDifficultyWeightRecord difficulty="1" ruWeight="10"/>
+      <MineralDifficultyWeightRecord difficulty="2" ruWeight="5"/>
+      <MineralDifficultyWeightRecord difficulty="3" ruWeight="1"/>
+    </difficultyWeights>
+  </mineralRecord>
+
+  <critterRecord>
+    <critterCounts>
+      <CritterCountRecord critter="SentinelDrone" existsProbability="1" count="4" />
+    </critterCounts>
+  </critterRecord>
+
+  <hazardRecord>
+    <hazardCounts>
+      <HazardCountRecord hazard="BlizzardStorm" count="3"/>
+      <HazardCountRecord hazard="BaseLightning" count="5"/>
+    </hazardCounts>
+  </hazardRecord>
+
+
+
+
+</PlanetTemplate>

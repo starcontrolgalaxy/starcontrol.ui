@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PlanetTemplate
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../Schemas/PlanetTemplate.xsd"
+  internalID="Ruby"
+  name="Ruby"
+  inheritsFrom="default"
+  solarSystemModelName="Ruby2"
+  type="UI_PlanetScan_PlanetType_Ruby"
+  
+  gravityFactor="0.9"
+  temperatureFactor="0.599"
+  weatherFactor="0.19"
+  biologyFactor="0.0"
+  
+  atmosphereHaloColor="200,30,10,20"
+  
+  atmosphereSize="0.200000" 
+  atmosphereDensity="0.40000" 
+  atmosphereHaloSize="0.1000" 
+  atmosphereHaloDensity="0.500000" 
+  atmosphereHaloInnerFalloff="0.010000" 
+  atmosphereHaloRingThreshold="0.2500000" 
+  atmosphereHaloRingThicknessExponent="32.000000" 
+  atmosphereMinIntensity="0.000000" 
+  
+
+  atmosphereSkyTransparencyDayBottom="1.00000" 
+  atmosphereSkyTransparencyDayTop="1.000000"
+  atmosphereSkyTransparencyNightBottom="1.000000"
+  atmosphereSkyTransparencyNightTop="1.000000" 
+  
+  baseTerrainMaterial="CrystalBaseRuby"
+  stampList="Crystal_Ruby"
+  environment="Crystaline"
+  music="Ruby"
+  billboard="PlanetoidIcon_Ruby"
+  
+  toxicityFactor="0.60000"
+  >
+  
+  <mineralRecord totalRu="2100">
+    <elementWeights>
+      <MineralElementWeightRecord element="Tzo Crystals" weightModifier="10" />
+      <MineralElementWeightRecord element="Neutronium" weightModifier="10" />
+      <MineralElementWeightRecord element="Antimatter" weightModifier="3" />
+      <MineralElementWeightRecord element="Curium" weightModifier="3" />
+    <MineralElementWeightRecord element="Iridium" weightModifier="3" />
+    </elementWeights>
+  </mineralRecord>
+
+
+  <critterRecord>
+    <critterCounts>
+      <CritterCountRecord critter="SecurityDrone3" existsProbability="1" count="2" />
+    </critterCounts>
+  </critterRecord>
+
+  <hazardRecord>
+    <hazardCounts>
+      <HazardCountRecord hazard="BaseLightning" count="35"/>
+    </hazardCounts>
+  </hazardRecord>
+
+
+
+</PlanetTemplate>

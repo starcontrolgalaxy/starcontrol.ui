@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PlanetTemplate
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../Schemas/PlanetTemplate.xsd"
+  internalID="LanthanideSpores"
+  name="LanthanideSpores"
+  inheritsFrom="Lanthanide"
+  solarSystemModelName="Iodine"
+  type="UI_PlanetScan_PlanetType_Lanthanide" 
+  >
+  
+  <mineralRecord totalRu="900">
+    <elementWeights>
+      <MineralElementWeightRecord group="Rare Earth" weightModifier="2" />
+    </elementWeights>
+    
+    <difficultyWeights>
+      <MineralDifficultyWeightRecord difficulty="1" ruWeight="100"/>
+    </difficultyWeights>
+  </mineralRecord>
+  
+  <critterRecord>
+    <critterCounts>
+      <CritterCountRecord critter="Spore" existsProbability="1.0" count="20" />
+    </critterCounts>
+  </critterRecord>
+  
+</PlanetTemplate>

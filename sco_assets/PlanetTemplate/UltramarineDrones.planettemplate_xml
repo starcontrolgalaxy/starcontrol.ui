@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PlanetTemplate
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../Schemas/PlanetTemplate.xsd"
+  internalID="UltramarineDrones"
+  name="UltramarineDrones"
+  inheritsFrom="default"
+  solarSystemModelName="Frozen"
+  type="UI_PlanetScan_PlanetType_Ultramarine"
+  
+  gravityFactor="0.4"
+  temperatureFactor="0.1"
+  weatherFactor="0.2"
+  biologyFactor="0.2"
+  
+  atmosphereSize="0.200000" 
+  atmosphereDensity="0.990000" 
+  atmosphereHaloSize="-0.2000" 
+  atmosphereHaloDensity="0.100000" 
+  atmosphereHaloInnerFalloff="0.010000" 
+  atmosphereHaloRingThreshold="0.2500000" 
+  atmosphereHaloRingThicknessExponent="32.000000" 
+  atmosphereMinIntensity="0.000000" 
+  atmosphereDarknessSaturation="1.000000" 
+  atmosphereFogDensityDay="0.800000" 
+  atmosphereFogDensityNight="0.4000000"
+  atmosphereFogColorDay="250,250,170" 
+  atmosphereFogColorNight="110,90,120" 
+  atmosphereFogColorSunset="150,150,170"
+  atmosphereFogDistance="150.0"
+  atmosphereNoiseTiling="60.000000" 
+  atmosphereNoiseShift="0.100000" 
+  atmosphereSkyColorDayBottom="180,235,217"
+  atmosphereSkyColorDayTop="163,218,200"
+  atmosphereSkyColorSunsetBottom="90,150,160"
+  atmosphereSkyColorSunsetTop="150,100,160"
+  atmosphereSkyColorNightBottom="9,15,16"
+  atmosphereSkyColorNightTop="10,20,40"
+  atmosphereSkyColorTransitionNight="0.000000" 
+  atmosphereSkyColorTransitionSunset="50.000000" 
+  atmosphereSkyColorTransitionSunrise="50.000000" 
+  atmosphereSkyColorTransitionDay="100.000000" 
+  atmosphereSkyTransparencyDayBottom="0.600000" 
+  atmosphereSkyTransparencyDayTop="0.500000"
+  atmosphereSkyTransparencyNightBottom="0.800000" 
+  atmosphereSkyTransparencyNightTop="0.500000"
+  
+  baseTerrainMaterial="FrozenBaseSnow"
+  stampList="Frozen_Ultramarine"
+  environment="Desert"
+  
+  landerDayParticleFX="BlizzardLanderEffect_Main"
+  landerNightParticleFX="BlizzardLanderEffect_Main"
+  landerLandingParticleFX="BlizzardLanderEffect_Main"
+  
+  planetScanFogLevel="0.05"
+  atmosphereHaloColor="100,120,130,100"
+  
+  music="Ice"
+  
+  groundLandedParticleFX="LandingOnPlanet_Icey"
+  groundLaunchedParticleFX="LeavingPlanet_Icey"
+  >
+  
+  <mineralRecord totalRu="1000">
+    <elementWeights>
+      <MineralElementWeightRecord element="Super Fluids" weightModifier="85.2"/>
+      <MineralElementWeightRecord element="Holmium" weightModifier="85.2"/>
+      <MineralElementWeightRecord group="Common Gas" weightModifier=".13" />
+      <MineralElementWeightRecord group="Common Element" weightModifier=".13" />
+    </elementWeights>
+  </mineralRecord>
+    
+  <critterRecord>
+    <critterCounts>
+      <CritterCountRecord critter="SecurityDrone2" existsProbability="1" count="8" />
+    </critterCounts>
+  </critterRecord>
+
+</PlanetTemplate>

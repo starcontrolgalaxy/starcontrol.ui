@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PlanetTemplate
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../Schemas/PlanetTemplate.xsd"
+  internalID="StartingPlanetWeaponsLab"
+  name="StartingPlanetWeaponsLab"
+  inheritsFrom="Carbide"
+  >
+
+  <mineralRecord totalRu="150">
+    <elementWeights>
+      <MineralElementWeightRecord group="Common Gas" weightModifier="1" />
+      <MineralElementWeightRecord group="Common Element" weightModifier="1" />
+    </elementWeights>
+  </mineralRecord>
+
+  <critterRecord>
+    <critterCounts>
+      <CritterCountRecord critter="SecurityDrone3" existsProbability="1" count="8" />
+    </critterCounts>
+  </critterRecord>
+</PlanetTemplate>

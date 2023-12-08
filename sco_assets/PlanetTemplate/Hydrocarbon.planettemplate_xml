@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PlanetTemplate
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../Schemas/PlanetTemplate.xsd"
+  internalID="Hydrocarbon"
+  name="Hydrocarbon"
+  inheritsFrom="default"
+  solarSystemModelName="Hydrocarbon"
+  type="UI_PlanetScan_PlanetType_Hydrocarbon"
+  billboard="PlanetoidIcon_Hydrocarbon" 
+  
+  gravityFactor="0.9"
+  temperatureFactor="0.5"
+  weatherFactor="0.0"
+  biologyFactor="1.0"
+  
+  baseTerrainMaterial="GrassThickGreen"
+  stampList="Hydrocarbon"
+  environment="Barren"
+  
+  atmosphereSize="0.600000" 
+  atmosphereDensity="0.190000" 
+  atmosphereHaloSize="0.5000" 
+  atmosphereHaloDensity="0.400000" 
+  atmosphereHaloInnerFalloff="0.010000" 
+  atmosphereHaloRingThreshold="0.2500000" 
+  atmosphereHaloRingThicknessExponent="32.000000" 
+  atmosphereMinIntensity="0.000000" 
+  atmosphereDarknessSaturation="1.000000" 
+  atmosphereFogDensityDay="0.100000" 
+  atmosphereFogDensityNight="0.0000000"
+  atmosphereFogColorDay="210,250,255" 
+  atmosphereFogColorNight="110,90,120" 
+  atmosphereFogColorSunset="150,150,170"
+  atmosphereFogDistance="190.0"
+  atmosphereNoiseTiling="60.000000" 
+  atmosphereNoiseShift="0.100000" 
+  atmosphereSkyColorDayBottom="10,155,255"
+  atmosphereSkyColorDayTop="13,248,255"
+  atmosphereSkyColorSunsetBottom="255,150,60"
+  atmosphereSkyColorSunsetTop="250,100,10"
+  atmosphereSkyColorNightBottom="0,0,0"
+  atmosphereSkyColorNightTop="0,0,0"
+  atmosphereSkyColorTransitionNight="0.000000" 
+  atmosphereSkyColorTransitionSunset="50.000000" 
+  atmosphereSkyColorTransitionSunrise="50.000000" 
+  atmosphereSkyColorTransitionDay="100.000000" 
+  atmosphereSkyTransparencyDayBottom="0.900000" 
+  atmosphereSkyTransparencyDayTop="0.800000"
+  atmosphereSkyTransparencyNightBottom="0.800000" 
+  atmosphereSkyTransparencyNightTop="0.500000"
+
+  landerDayParticleFX="BlizzardLanderEffect_Main"
+  landerNightParticleFX="BlizzardLanderEffect_Main"
+  landerLandingParticleFX="BlizzardLanderEffect_Main"
+  planetScanFogLevel="0.10"
+  atmosphereHaloColor="200,220,230,100"
+  
+  cloudSpeed="-0.005,0.005,-0.009,-0.008"
+  
+  music="Earth"
+  >
+  
+  <mineralRecord totalRu="25">
+    <elementWeights>
+      <MineralElementWeightRecord element="Ethanol" group="" weightModifier="1.000000"/>
+      <MineralElementWeightRecord element="Carbon Dioxide" group="" weightModifier="1.000000"/>
+      <MineralElementWeightRecord element="Cyano-acetylene" group="" weightModifier="1.000000"/>
+      <MineralElementWeightRecord element="Hydrogen" group="" weightModifier="1.000000"/>
+      <MineralElementWeightRecord element="Methanol" group="" weightModifier="1.000000"/>
+      <MineralElementWeightRecord element="Methane" group="" weightModifier="1.000000"/>
+    </elementWeights>
+  </mineralRecord>
+
+  <critterRecord>
+    <critterCounts>
+      <CritterCountRecord critter="Critter9" existsProbability="1.0" count="64" />
+    </critterCounts>
+  </critterRecord>
+
+  <hazardRecord>
+    <hazardCounts>
+      <HazardCountRecord hazard="LargeTornado" count="1"/>
+    </hazardCounts>
+  </hazardRecord>
+
+</PlanetTemplate>
